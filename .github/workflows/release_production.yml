@@ -1,0 +1,30 @@
+name: deriv-com/deriv-static-content/release_production
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release_production:
+    environment: Production
+    runs-on: ubuntu-latest
+    container:
+      image: node:18.16.1
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+      - uses: "./.github/actions/versioning"
+        with:
+          target_branch: production
+      - uses: "./.github/actions/publish_to_pages_production"
+        with:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - uses: technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5
+      - name: Extract version
+        run: echo "VERSION=$(echo cat public/version)"
+      - uses: "./.github/actions/send_slack_notification"
+        with:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          status: ${{ env.WORKFLOW_CONCLUSION }}
+          release_type: Production
+          version: $VERSION
