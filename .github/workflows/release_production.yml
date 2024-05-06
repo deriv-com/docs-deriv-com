@@ -1,30 +1,53 @@
-name: deriv-com/deriv-static-content/release_production
+name: Production Release
+
 on:
   push:
-    branches:
-      - master
+      branches:
+          - master
+      paths-ignore:
+          - '**.md'
 
 jobs:
-  release_production:
-    environment: Production
-    runs-on: ubuntu-latest
-    container:
-      image: node:18.16.1
-    steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
-      - uses: "./.github/actions/versioning"
-        with:
-          target_branch: production
-      - uses: "./.github/actions/publish_to_pages_production"
-        with:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      - uses: technote-space/workflow-conclusion-action@45ce8e0eb155657ab8ccf346ade734257fd196a5
-      - name: Extract version
-        run: echo "VERSION=$(echo cat public/version)"
-      - uses: "./.github/actions/send_slack_notification"
-        with:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-          status: ${{ env.WORKFLOW_CONCLUSION }}
-          release_type: Production
-          version: $VERSION
+    release-production:
+        timeout-minutes: 40
+        runs-on: Ubuntu-latest
+        environment: production
+        steps:
+            - name: Checkout 🛎️
+              uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
+
+            - name: Setup Node
+              uses: actions/setup-node@v3
+              with:
+                  node-version: '18.x'
+                  cache: 'npm'
+
+              # For using same tag for staging and production we need to uncomment these two below lines:
+              # with:
+              #   tagRegex: "production(.*)"
+            - name: Deploy to Cloudflare ☁️
+              uses: cloudflare/wrangler-action@2.0.0
+              with:
+                  apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                  command: pages deploy src --project-name=docs-deriv-com --branch=main
+
+            - name: Cloudflare production link ✨
+              run: echo "New website - docs-deriv-com.pages.dev"
+            
+            - name: Slack Notification 📣
+              uses: 8398a7/action-slack@v3
+              with:
+                  status: ${{ job.status }}
+                  fields: workflow,repo
+                  if_mention: failure,cancelled
+                  custom_payload: |
+                      {
+                        attachments: [{
+                          color: '${{ job.status }}' === 'success' ? 'good' : '${{ job.status }}' === 'failure' ? 'danger' : 'warning',
+                          text: `Release for *Deriv.com* with version *$GIT_TAG_NAME*`
+                        }]
+                      }
+              env:
+                  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+              if: always()
