@@ -4,10 +4,10 @@ Welcome to the **documents-deriv-com** repository, where we manage and archive c
 
 ## Repository Structure
 
-- **/terms-and-conditions**: Contains all the terms and conditions documents relevant to our services and products.
-- **/regulatory**: Includes documents related to regulatory compliance across different jurisdictions.
-- **/partners**: Houses agreements and other legal documents related to our partnerships.
-- **/misc-public-pdfs**: Other public compliance documents that do not categorically fall under the above classifications.
+- **src/terms-and-conditions**: Contains all the terms and conditions documents relevant to our services and products.
+- **src/regulatory**: Includes documents related to regulatory compliance across different jurisdictions.
+- **src/partners**: Houses agreements and other legal documents related to our partnerships.
+- **src/others**: Other public compliance documents that do not categorically fall under the above classifications.
 
 ## Getting Started
 
