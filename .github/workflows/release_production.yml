@@ -15,17 +15,13 @@ jobs:
         steps:
             - name: Checkout 🛎️
               uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744
-
-              # For using same tag for staging and production we need to uncomment these two below lines:
-              # with:
-              #   tagRegex: "production(.*)"
             - name: Deploy to Cloudflare ☁️
-              uses: cloudflare/wrangler-action@2.0.0
+              uses: "deriv-com/shared-actions/.github/actions/publish_to_pages_branch@master"
               with:
-                  apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-                  accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-                  command: pages deploy src --project-name=docs-deriv-com --branch=main
-
-            - name: Cloudflare production link ✨
-              run: echo "New website - docs-deriv-com.pages.dev"
+                  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+                  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+                  project_name: docs-deriv-com
+                  branch_name: main
+                  output_dir: src
+                  cname_url: docs-deriv-com.pages.dev
               
