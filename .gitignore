@@ -10,6 +10,7 @@ bin-release/
 */*/.DS_Store
 */.DS_Store
 .DS_Store
+.idea
 
 .env
 .env.*
