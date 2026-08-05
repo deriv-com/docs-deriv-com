@@ -21,6 +21,15 @@ Define:
 - one primary CTA; and
 - mandatory conditions and disclosure profile.
 
+## Preferred structure
+- Subject line: aim for 40 characters or fewer unless the approved template requires otherwise.
+- Heading: sentence case, aim for 60 characters or fewer.
+- Opening: state the main value or campaign angle.
+- Details: explain timing, scope, value, and any required conditions.
+- Action: state what the reader should do next and by when.
+- CTA: include only one primary CTA unless the brief explicitly requires another action.
+- Support line and selected disclosure.
+
 ## Rules
 
 - Lead with a customer-relevant benefit rather than an internal feature description.
