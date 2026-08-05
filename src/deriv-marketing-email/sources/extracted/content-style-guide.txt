@@ -1,0 +1,1084 @@
+sda
+
+
+
+
+                         Content style guide 2026
+Created by the Content Team
+
+
+Jump to:
+
+      Introduction                                  Templates
+      Deriv’s tone of voice                            ●​ Email — general
+      General guidelines                               ●​ Email — canned response
+      Grammar and punctuation                          ●​ Email — maintenance
+      Commonly-used terms
+      UX writing guidelines
+      Push notification guidelines
+      Currency formatting guidelines
+      Video-scripts & voiceover guidelines
+      Things to avoid
+      Platform and account names spelling
+      Partners-related terms spelling
+      Disclaimers
+      Contact us
+
+
+
+Introduction
+
+This is a quick guide for Deriv content writers.
+
+Important things to remember:
+
+        ●​ Write clearly and concisely. Always aim for accuracy.​
+
+        ●​ Make it as easy as possible to understand. Use appropriate language for the target
+           audience.​
+
+        ●​ Deriv clients are global; many of them aren’t native English speakers. Content may be
+           translated into other languages, so use simple language as much as possible.
+
+
+
+
+        Deriv’s tone of voice
+        ●​ Clear and direct
+         ○​ Use straightforward, jargon-free language that is relatable. Ensure
+            communications are easy to understand and convey core messages
+            efficiently.
+●​   Friendly and approachable
+         ○​ Create a welcoming atmosphere through a warm, inviting tone that connects
+            with the audience. Use language that fosters a sense of community and
+            approachability.
+         ○​ Incorporate supportive phrases that express empathy and readiness to assist,
+            reinforcing the idea of being a helpful partner.
+●​   Client-centred
+         ○​ Centre all content around the needs and interests of the audience,
+            emphasising how Deriv can enrich their experience.
+         ○​ Communicate key information clearly, ensuring audiences feel supported and
+            informed at every stage of their interaction with Deriv.
+●​   Trustworthy and transparent
+         ○​ Maintain honesty in all communications by being upfront about processes,
+            potential risks, and any relevant guidelines. Strive for transparency to foster
+            trust.
+         ○​ Ensure consistent messaging across all platforms, reinforcing reliability and
+            the Deriv brand identity.
+●​   Informative and engaging
+         ○​ Aim to educate and inform by sharing valuable insights that improve
+            understanding and decision-making. Highlight relevant topics that cater to
+            the audience's interests.
+         ○​ Encourage interaction and engagement, inviting feedback and making
+            communication feel more like a two-way conversation.
+General guidelines
+
+We use British English in all our content​
+The only exception is when it comes to unique names. For example, the U.S. Department of
+Labor and Microsoft Media Center.
+
+Common spelling differences between British English and American English:
+
+                      UK                                              US
+
+                 Programme                                         Program
+
+                    Centre                                          Center
+
+                    Colour                                           Color
+
+                   Cheque                                           Check
+
+                   Analogue                                         Analog
+
+                  Authorise                                       Authorize
+
+                   Favourite                                       Favorite
+
+                     Fulfil                                         Fulfill
+
+                    Metre                                           Meter
+
+        Licence (noun), license (verb)                     License (noun and verb)
+
+       Practice (noun), practise (verb)                    Practice (noun and verb)
+
+
+Proofread, proofread, proofread
+Proofreading helps readers to focus on your message, not your mistakes.
+
+Keep it simple and be clear
+Use simple, conversational language. Use short, uncomplicated sentences and paragraphs.
+Avoid jargon at all costs. If you must use a technical term, clearly define it so everyone can
+understand.
+
+Know our audience
+We produce content that caters to people from around the world with various interests and
+backgrounds. We should be inclusive and speak the language that our clients use. Write from
+the perspective of the reader.
+
+Avoid redundancy
+Examples: New innovation, future plans, prior experience, throughout the month of June.
+
+Avoid ambiguity
+Be specific. For example, say, “We’ll get back to you in two days” instead of “We’ll get back
+to you soon”.
+
+Avoid using fillers
+Avoid using words like “furthermore”, “however”, “therefore”, etc.
+
+Write using active voice
+Active voice is preferred because it makes our writing much easier to understand. It puts the
+sentence's subject first and performs the action that the rest of the sentence describes.
+
+Write positively
+Use positive language rather than negative language. For example, “Volatility Indices are not
+available in some countries” can be written as “Volatility Indices are available in selected
+countries.” ​
+​
+Anglo-Saxon over Latinate (for English)​
+Use simplified verbs such as “need/give” instead of “require/provide”.
+
+Contact us
+Clients can reach us via
+    ●​ Live chat
+    ●​ WhatsApp
+
+Insert the above links in all client emails.
+Grammar and punctuation
+
+Headlines, headings, titles
+Don’t use periods in headlines, headings, and titles.
+
+If you’re writing an ad, periods can be considered if you’re aiming for strong, short
+statements, clarity, and precision or to separate words distinctively (in lieu of commas).
+
+
+   ●​ Write better. Faster. Together.
+   ●​ Brilliant. In every way.
+
+Periods, question marks, exclamation points
+Periods go inside quotation marks. Question marks go inside quotation marks if they’re
+part of the quote. Use exclamation points sparingly and never more than one at a time.
+
+Don’t use a period for abbreviations written with the word's first and last letter.
+   ●​   Saint: St
+   ●​   Doctor: Dr
+   ●​   Mister: Mr
+   ●​   Feet: ft
+   ●​   Limited: Ltd
+   ●​   Professor: Prof
+   ●​   Sergeant: Sgt
+   ●​   Versus: vs
+
+Put a space between numbers and units of measure.
+    ●​ 200 cm
+    ●​ 1 kg
+
+Don’t use a period with abbreviations for units of measure in the metric system.
+  ●​ Centimetre: cm
+  ●​ Metre: m
+  ●​ Kilogram: kg
+
+
+Ampersand
+Use only when part of a formal name or title.
+   ●​ Ogilvy & Mather
+   ●​ Barnes & Noble
+
+For team or department names and other scenarios, use “and”
+    instead.
+   ●​ Accounts and Payments
+   ●​ Terms and conditions
+Comma
+Always use a serial comma if you’re listing three or more items in a sentence.
+   ●​ Cats, dogs, and elephants
+   ●​ Cats, dogs, elephants, and giraffes
+
+Use a comma before a conjunction when it joins two independent clauses.
+
+   ●​ After you set a password, withdrawals will be paused for 24 hours, and you’ll be
+      logged out of all sessions.
+   ●​ Your account has been verified, and you can now start trading.
+
+Don't use a comma between two imperative clauses.
+   ●​ Save your changes and restart the system.
+   ●​ Upload your ID and confirm your address.
+
+Colon
+A colon can be used to precede a list of items in a sentence, especially when you want
+to direct attention to the list.
+   ●​ In headings, always capitalise the first word after the colon.
+   ●​ For a point on the list, after the list label, always capitalise the first word after
+      the colon. Example:
+          ○​ The “wow” moment: One of the speakers, Benny Leong, mentioned an AI
+              tool that fixed an old photo in 30 seconds.
+   ●​ If two independent clauses are joined with a colon to make a longer sentence,
+      do not capitalise the first word after the colon. Example:
+          ○​ Raunak was clear: it’s not a mindless usage of AI that will replace what
+              we do.
+
+
+
+Semicolon
+Use a semicolon when multiple commas are being used in a series of items.
+...Product Design and UX; Compliance and Risk Management; and the Accounts and
+Payments teams.
+
+Apostrophe
+Use an apostrophe to contract two words.
+   ●​ I’m
+   ●​ We’re
+   ●​ She’d
+
+Don’t use an apostrophe to pluralise dates and acronyms.
+  ●​ CFDs, not CFD’s
+  ●​ 1950s, not 1950’s
+Don’t use an apostrophe if it can be read as a compound noun with the same meaning.
+Trade on world markets... (not Trade on the world’s markets...)
+
+Single quotation marks
+Use to indicate names and titles when necessary and to indicate a quote within a quote.
+“The CEO specifically asked, ‘What’s Deriv Trader’s monthly trading volume for October?’”
+said Dennis.
+
+Double quotation marks
+Use to indicate direct quotes. Never use it to emphasise a certain word or phrase.
+Exceptions can be made for terms and conditions.
+
+Ellipses
+Use only to indicate omitted words or phrases in quotes. Use three dots in a row with no
+spaces between each dot.
+   ●​ If only she had... (Change the example)
+
+Hyphen
+Used to join words to indicate that they have a combined meaning or that they are
+linked in the grammar of a sentence.
+
+
+Numbers between twenty-one and ninety-nine should also be hyphenated when
+they’re spelt out.
+   ●​   Malaysia-Indonesia border
+   ●​   First-time trader
+   ●​   Ten-year-old technology
+   ●​   To-do list
+   ●​   Highly acclaimed, critically acclaimed, nationally known (don’t hyphenate if the
+        first word is the adverb, ‘very’, or an adverb that ends in -ly)
+
+En dash ​
+Used between figures (like dates and times) to show a range.
+   ●​ 1995–2001
+   ●​ The shop is open 9:00 am–5:00 pm
+
+Em dash
+Em dashes set off extra information, mark a break in a sentence, or draw attention to a
+specific point. It’s ok to use spaces on both sides of the em dash or use no spaces.
+   ●​ The team, led by their captain—a seasoned veteran—advanced to the finals.
+   ●​ The reason for her absence was clear—she was ill.
+   ●​ The most important thing — the key to success — is perseverance.
+
+Formulas
+If you’re writing a formula that requires the multiplication sign, use the actual character
+instead of a lowercase X. In Google Docs, you can do this by going to Insert > Special
+characters. Use a space before and after a special character (addition, subtraction,
+multiplication, and division) in the formula.
+
+Capitalisation
+We use the sentence case throughout our apps, websites, and any form of communication
+with the outside world. Always capitalise the first word in a sentence and capitalise proper
+nouns.
+
+Page names in a navigation menu within a user interface, whether on web or mobile, should
+use sentence case. For example:
+
+   ●​ Go to your Profile settings to change your photo.
+   ●​ See the current status of your transfer on the Transfer status page.
+
+Exception: We use lowercase on the sign-up screen when the word "or" acts as a separator
+between two sign-up or log-in options (e.g., "Sign up using A or B").
+
+
+
+
+Book titles are put in the title case (all words are capitalised except for articles and
+prepositions).
+
+For legal documents, like terms and conditions, terms that are defined can be capitalised.
+​
+​
+Payment agents
+
+Capitalisation rules for “Payment agents” are as follows:
+
+   ●​ Capitalised in:
+         ○​ The terms & conditions (where it’s defined as a specific term)
+         ○​ The name of a Wallet (also when referring to plural ‘Wallets’)
+   ●​ Sentence case (e.g., “Payment agents”) in all other contexts.
+
+
+
+
+Wallet names with currencies
+
+Rule: When a currency name is combined with "Wallet," the currency stays lowercase (per
+the standard currency rule) but "Wallet" always keeps its capital W, because it's a Deriv
+product name, not a common noun.
+
+ISO currency codes are the exception; they're always written in full caps, exactly as issued
+(USD, EUR, GBP) — never partially lowercased.
+
+Pattern: [currency name, lowercase] + Wallet / [ISO code, all caps] +
+Wallet
+
+Examples:
+
+
+            Context                        ✅ Correct                     ❌ Incorrect
+
+
+
+ Referring to the main fiat      US dollar Wallet                US Dollar Wallet / US dollar
+ wallet                                                          wallet
+
+
+
+ Referring to the P2P-specific   P2P US dollar Wallet            P2P US Dollar Wallet / P2P
+ wallet                                                          Wallet
+
+
+
+ Another currency                euro Wallet                     Euro Wallet / euro wallet
+ Using the ISO code instead       USD Wallet                       USd Wallet / usd Wallet
+ (tight spaces)
+
+
+
+ Mid-sentence, balance            Top up your US dollar Wallet     Top up your US Dollar
+ reference                        balance                          Wallet Balance
+
+
+
+ Notification copy                Your P2P US dollar Wallet        Your P2P Wallet balance is
+                                  balance is zero.                 zero.
+
+
+
+Why this rule exists
+
+Two capitalisation rules intersect here, and it's easy to accidentally apply the wrong one to
+the whole phrase:
+
+   1.​ Currency names are common nouns → lowercase ("US dollar," not "US Dollar").
+   2.​ "Wallet" is a Deriv product name → always capitalised, even mid-sentence.
+
+Writers sometimes capitalise the whole term as if it were one proper noun ("US Dollar
+Wallet") or lowercase the whole thing as if it were one common phrase ("us dollar wallet").
+Neither is right — each half follows its own rule independently.
+
+
+
+
+Capitalisation after a colon​
+The word after a colon is usually capitalised, whether what follows is a complete sentence or
+not. For example:
+
+   ●​ Reminder: Your feedback stays anonymous.
+   ●​ Who will benefit: Employees, clients, partners
+
+Exception: If what follows a colon is a parenthetical phrase/list that is part of the sentence,
+we won’t capitalise it. These are cases where an em dash can easily replace a colon. For
+example:
+
+Jan needed a few more items to complete her job application: a résumé, cover letter, and
+references.
+
+
+
+Date
+Acceptable formats
+     ●​ DD Mmm YYYY (e.g. 22 Jan 2025)
+     ●​ DD Month YYYY (e.g. 22 January 2025)
+     ●​ DD/MM/YYYY (e.g. 22/01/2025) Note: since the American system switches the order
+         of month and day, leading with this format is never a good idea and can cause
+         confusion, especially when both the month and the day are below 13.
+When it’s clear which year the date refers to, you can omit the year:
+     ●​ DD Mmm (e.g. 22 Jan)
+     ●​ DD Month (e.g. 22 January)
+     ●​ DD/MM
+It’s not necessary to keep the date format consistent within the same document. For
+example, you can write:
+         On Saturday, 22 Jan, there will be system maintenance for up to two hours. There
+         might be another one on 25/02/2025.
+
+What to avoid
+Don't add “st”, “nd”, or “th” after the date; don’t write 1st Feb, 22nd Jan, 13th Mar.
+
+Is it ok to...
+Write the month in full form? Yes, if there is no character limit, e.g. when you're writing
+emails, blog posts, and the like, and you feel the full form gives a more natural feeling and
+sits organically in your sentence, go with it.
+
+
+
+Time
+
+Use the 12-hour/am/pm format. Use numerals followed by a space and am or pm. If the
+hour is a single digit, use the H:MM format; if it's two digits, use HH:MM. Use an en dash
+between times to indicate a time period.
+
+As we’re writing for a global audience, use Greenwich Mean Time as the default time and
+include its abbreviation in parentheses.
+
+   ●​   9:00 am (GMT)
+   ●​   9:30 am (GMT)
+   ●​   9:30 am–10:30 am (GMT)
+   ●​   11:30 am–1:00 pm (GMT)
+
+Date and time
+To combine date and time, use the following sequence:
+    ●​ 3:20 pm (GMT) on Friday, 11 October 2019
+    ●​ 3:20 pm (GMT) on 11 Oct 2019
+    ●​ 3:20 pm (GMT), 11 Oct 2019
+    ●​ 3:20 pm (GMT), Friday, 11 October 2019
+Lists
+    ●​   Introduce a list with a colon only if the lead-in statement is a complete sentence.
+    ●​   Don’t use a punctuation mark if the lead-in statement is a sentence fragment.
+    ●​   Start each list item with a capital letter.
+    ●​   Don’t use a punctuation mark after the list items that are not complete sentences.
+    ●​   Use normal terminal punctuation (period, question mark, or exclamation point) after
+         the list items that are complete sentences (including imperative sentences).
+
+Names and titles
+Capitalise the names of departments and teams (but not the word “team” or “department”).
+   ●​ Join the Marketing team...
+   ●​ Our IT department…
+   ●​ Our Front-end Development team…
+   ●​ Customer Support team
+
+Capitalise individual job titles if referencing a specific role, but don’t capitalise if referencing
+in general terms.
+    ●​ The new Marketing Director starts today.
+    ●​ All the managers ate durian.
+
+Capitalise academic degrees only when the full name of the degree is used, such as
+Bachelor of Arts or Master of Social Work. General references, such as bachelor's, master's
+or doctoral degree, are not capitalised. Do not capitalise graduate certificates. Names of
+academic disciplines, majors, minors, programmes, and courses of study are not proper
+nouns and should not be capitalised except for languages such as English, French, and
+Japanese. Use an apostrophe with bachelor’s degree and master’s degree, but not in
+Bachelor of Arts or Master of Science. Do not use an apostrophe with associate degree or
+doctoral degree. Do not use periods in degree abbreviations.
+
+    ●​ Bachelor of Arts in literature
+    ●​ Bachelor of Science in biology
+    ●​ She graduated with a bachelor’s degree in communication. (recommended for Deriv
+       job descriptions)
+    ●​ She’s planning to pursue a master’s degree in English. (recommended for Deriv job
+       descriptions)
+    ●​ She holds a doctoral degree (or doctorate) from Stanford University.
+
+Currency
+Use a specific three-letter currency code to indicate the currency you’re referring to.
+   ●​ 1,000 USD
+   ●​ 5 EUR
+   ●​   5,344.00 GBP
+   ●​   70 AUD
+   ●​   USD account
+   ●​   5.7 million USD
+   ●​   2.5 BTC
+
+When describing the currency, spell it out fully and don’t capitalise.
+  ●​ You have successfully changed your currency to the euro.
+  ●​ On the bright side, the pound sterling is not the worst-performing currency in the world
+      today.
+  ●​ The Australian dollar was hit hard overnight.
+  ●​ GBP/USD is a currency pair that involves buying the pound sterling and selling the US
+      dollar.
+  ●​ Market intel suggests that investors should capitalise on the current price dip and buy
+      bitcoin.
+
+Don’t spell out the currency in full if describing an account type. Use the abbreviation or
+three-letter currency code instead.
+    ●​ You have added a BTC account.
+    ●​ You do not have any balance remaining in your USDT account.
+    ●​ You cannot change your account currency because you have deposited money into
+       your USD account.
+
+For cryptocurrencies, capitalise if you’re referring to the technology, concept, or units of the
+currency.
+    ●​ We still don’t know who created Bitcoin.
+    ●​ Someone sent me 12 Bitcoins by mistake!
+    ●​ If you want to trade with Litecoin as your account currency, switch to your LTC
+       account.
+    ●​ Trade cryptocurrencies such as Bitcoin, Ether, Ripple, and Litecoin without taking
+       ownership of the underlying.
+
+Numbers
+Spell out a number when it begins a sentence unless it’s ridiculously long (whereby you
+should rephrase the sentence so the number doesn’t come at the beginning). Otherwise, use
+the numeral (including ordinals). An exception can be made for headlines if you’re starting
+the sentence with a number.
+    ●​ Three new developers will start on Monday, and 5 more next week.
+    ●​ I bought 3 new pairs of shoes last weekend.
+    ●​ We won 1st place in the Best Online Trading Provider category, an improvement over
+       our 3rd place finish last year. ​
+    ●​ 20 years of experience and trust (headline)
+Use commas for numbers over three digits unless they’re part of a proper noun or used to
+describe leverage.
+   ●​ 345
+   ●​ 1,200
+   ●​ 4,637,900
+   ●​ Leverage up to 1:2000
+   ●​ Crash 1000 Index
+
+Use the % symbol instead of spelling out “per cent.” It’s better to use numerals and not the
+word for percentages, even for numbers less than 10, unless at the beginning of the
+sentence (but try to rephrase so the number doesn’t come at the beginning if possible).
+   ●​ Over 50% of our clients are from Brazil.
+   ●​ Due to last week's pricing error, we had to refund 5% of our clients.
+   ●​ Eighty per cent of retail traders lose their money.
+
+When writing two numbers right next to each other, spell out the first number and use a
+numeral for the second number to make it easier to read.
+   ●​ We tested fifty-two 18-inch rims and found the Canary brand to be the best.
+   ●​ We tested six 18-inch rims and found the Canary brand to be the best.
+
+Hyperlinks
+Avoid using “click here” which hurts usability, accessibility, and SEO. Links should clearly
+explain where they will take you because you won’t have to remember the context if you
+skim the page. Hyperlink the noun and not the verb phrase.
+   ●​ For more information, visit the Help centre.
+
+Abbreviations and acronyms
+Spell out the meaning the first time, then use the shortened version after.
+   ●​ You may trade contracts for difference (CFDs) on the Deriv MetaTrader 5 platform. CFD
+       trading allows you to trade on a wide range of markets, from cryptocurrencies to
+       metals, with up to 1:1000 leverage.
+Commonly used terms
+
+Log in vs login
+Log in is a verb. For e.g. The system will direct you automatically after you log in.
+Login can be a noun or an adjective. For e.g. Please keep your account login details safe.
+
+Sign up vs sign-up
+Sign up is a verb. For e.g. Sign up for an account now.
+Sign-up can be a noun or an adjective. For e.g. We will redirect you to the sign-up page.
+We do not use signup.
+
+Deriv real account
+Deriv real account, not real Deriv account.
+
+Ebook
+Ebook or ebook, not e-book, eBook, or e-Book.
+
+Email
+Email or email, not e-mail.
+
+E-wallet
+E-wallet or e-wallet, not ewallet.
+
+Select vs selected
+Using select as an adjective can cause a lot of confusion, so tread carefully.
+
+The most common definition of select is (of a group of people or things) carefully chosen
+from a larger number as being the best or most valuable.
+
+The most common definition of selected is something that has been chosen or picked out
+from a larger number.
+
+Although certain sources allow for select to be used interchangeably with selected, it’s not
+worth the hassle.
+
+Among vs between
+Among introduces more than two items, while between is only used when describing two
+items. E.g. among us, between you and me.
+
+Biometric vs biometrics
+The word biometric is an adjective, meaning it describes a noun (e.g., biometric data,
+biometric security). Biometrics is a noun that refers to the field of study, the technology, or
+the unique physical/behavioral characteristics themselves.
+
+Staff
+Both singular and plural. Never use staffs unless you’re referring to the wooden kind.
+
+Internet vs internet
+It used to be common practice to capitalise references to the Internet. However, a number of
+mainstream publications have moved to use internet in recent years as internet connectivity
+has expanded. We use internet in all media.
+
+Talent vs talents
+Talent, when it means a talented person or talented people, remains talent, whether singular
+or plural. Talents means natural abilities to do things well.
+
+Zip code
+Zip code is treated as a regular noun, not an acronym. Use Zip at the start of a sentence. Use
+zip mid-sentence or in body copy.
+
+   ●​ Zip code must be entered to continue.
+   ●​ Enter your zip code to find local payment agents.
+
+Avoid: ZIP code
+Ux writing guidelines
+
+  ●​ Buttons and CTAs: Avoid using yes and no in the buttons. For example, use “Stay”
+     instead of "No, stay" or “cancel” instead of “Yes, cancel.”
+  ●​ Bold clickable elements: Always bold buttons, tabs, or interactive text in the copy to
+     make them stand out and enhance scannability.
+Push notification guidelines
+
+   ●​ Be concise: Keep titles between 30 and 50 characters and body text between 100
+      and 150 characters to ensure readability across devices.
+
+   ●​ Be relevant: Tailor notifications to the user’s actions or preferences to enhance
+      relevance.
+
+   ●​ Be clear and direct: Use straightforward language.​
+
+   ●​ Be personal and engaging: Personalise messages and use compelling language to
+      capture attention.
+
+   ●​ Use sentence case: Write all text in sentence case for clarity and a polished
+      appearance.
+
+   ●​ Use British style: Employ British English spelling and grammar rules.
+
+Example:
+
+Title: Trade alert   🚀
+Body: New opportunity in the Forex market! Check it out now and make your move.
+
+
+
+
+Title: Trade on the go!   🚀
+Body: Don’t just watch the markets, trade them with Deriv GO.
+
+
+
+
+Title: Never miss a market beat   📈
+Body: Your 24/7 pass to trade synthetic indices & crypto on the go.
+
+Deriv’s tone is professional yet approachable, focusing on clarity and engagement. For
+more details, refer to CleverTap's guide and push notification best practices.
+
+
+
+Currency formatting guidelines
+Fiat currencies
+
+   ●​ Symbol placement: Place the currency symbol before the amount.
+   ●​ Currency name: Write the ISO currency code (three-letter abbreviation) after the
+      amount, separated by a space.
+
+       Examples:
+       ✅  1.000 IDR
+       ✅  0.0002718 MYR
+       ✅  100 USD
+       ✅  50 EUR
+
+       ✅ Rp1.000
+       ✅ RM0.0002718
+       ✅ $100
+       ✅ €50
+Cryptocurrencies
+
+   ●​ Currency code: Write the official abbreviation after the amount, separated by a
+      space.
+
+       Examples:
+       ✅  0.05 BTC
+       ✅  1.2 ETH
+       ✅  0.003 USDT
+
+
+
+
+Video scripts and voiceover guidelines
+
+When crafting video scripts or voiceover content for Deriv, aim to maintain the same tone
+and style as the rest of our communications — professional yet approachable, clear, and
+informative. Since the audience is global, it’s essential to use jargon-free language and
+simple sentences, ensuring that non-native English speakers can understand the message.
+
+The scripts should be engaging and easy to follow, with content centred around the
+audience’s needs and derived from our key tone of voice guidelines: clear and direct,
+friendly and approachable, client-centred, trustworthy and transparent, informative
+and engaging.
+Clarity and simplicity
+   ●​ Keep sentences short and straightforward to ensure quick comprehension.
+   ●​ Use a conversational tone, avoiding over-complicated language or long sentences.
+   ●​ Be mindful of a global audience – avoid idiomatic expressions or cultural references
+        that may not translate well.
+
+Hook the viewer early
+   ●​ Start with a strong hook to capture the viewer's attention within the first 10 seconds.
+   ●​ Highlight intriguing or key information early on to spark curiosity, and maintain
+      engagement throughout the script.
+
+Maintain natural flow
+   ●​ Write as if speaking directly to the audience. Scripts for voiceovers should feel natural
+      when spoken aloud.
+   ●​ Use active voice to make the content more engaging and easier to digest.
+
+Emphasise key messages
+  ●​ Identify the three main takeaways for your audience and make sure these points are
+     made clearly throughout the video.
+
+End with a CTA
+   ●​ Always finish with a call to action (CTA), whether signing up, visiting the website, or
+      contacting customer support. The CTA should be concise, focused, and appropriate
+      for the video’s objective.
+
+
+
+Script formatting guidelines
+
+Script sections
+   ●​ Visual cues should be formatted in italics and enclosed in square brackets. Example:
+       [Drone shot of office team interaction].
+   ●​ Dialogue and voiceover text should be plain and follow natural speech patterns.
+   ●​ Actions or specific notes should be enclosed in parentheses (for example, sound
+       effect, pause, emphasis).
+
+Instructions for voice talent
+   ●​ Write emphasis words in bold to ensure special attention is given while delivering.
+   ●​ Use pauses strategically – indicate where breaks or pauses for viewer
+       comprehension would be effective.
+Things to avoid
+
+          Don’t use these words                             Use these instead
+
+                    invest                                         trade
+
+                   investor                                        trader
+
+                      win                                      Earn/receive
+
+                     stake                                     initial capital
+
+                  hit [button]                                press [button]
+
+
+
+
+Platform and account names spelling
+
+   ✅ Use this                  ❌ Not this                       Description
+
+    Deriv MT5                dMT5, Mt5, mt5      A multi-asset trading platform powered by
+                                                 MetaTrader 5, offering advanced tools for
+                                                 trading forex, stocks, and CFDs.
+
+  MT5 Standard          MT5 demo Standard,
+     demo               MT5 Demo Standard,
+                        MT5 Standard Demo
+
+   Zero Spread
+
+ Swap-Free (TBA)
+
+  Deriv cTrader         Dctrader, DCTRADER       An intuitive trading platform designed for
+                                                 forex and CFD trading with powerful
+                                                 charting and automation features.
+
+    Deriv GO                Deriv go, Deriv Go   A mobile app for on-the-go trading,
+                                                 enabling you to access your Deriv accounts
+                                                 and manage trades from anywhere.
+
+    Deriv Bot                dBot, DerivBot      An automated trading platform that lets
+                                                 you build and run trading bots without
+                                                 coding.
+
+   Deriv Trader         DTrader, dTrader, DT     A simple and straightforward trading
+                                                 platform for forex and synthetic indices,
+                                                 ideal for both beginners and experienced
+                                                 traders.
+  SmartTrader       ST, smart trader, Smart   A user-friendly web-based platform for
+                            Trader            trading multipliers and options with
+                                              customisable trade parameters.
+
+
+Partners-related terms spelling
+
+  ✅ Use this              ❌ Not this                         Description
+
+  Partner’s Hub       PH, Partners Hub        The official platform where Partners
+                                              manage accounts, track earnings, and view
+                                              reports.
+
+Partner Academy,      Partners Academy
+  Deriv Partner
+    Academy
+
+  Deriv Partner
+   Community
+
+    Partners         Partner’s dashboard,     The main view in Partner’s Hub where
+   dashboard         Partner’s Dashboard      Partners track their performance, see
+                                              commission stats, access referral links and
+                                              codes, and manage their partnership
+                                              activity.
+
+Deriv partnership      Deriv partnership      The system that allows individuals or
+  programme             program, Deriv        businesses to collaborate with Deriv by
+                    Partnership programme     promoting its products and earning
+                                              commissions.
+
+ Partner tiering        Partner Tiering       A performance-based system that ranks
+  programme              programme            Partners in Bronze, Silver, Gold, or
+                                              Platinum tiers based on their rolling
+                                              3-month average commission.
+
+ Master Partner         Master partner        A programme that lets Partners earn
+  programme              programme            commissions by referring individuals to
+                                              join the Deriv partnership programme.
+
+     Partner         Affiliate, introducing   A general term for any individual or
+                            broker, IB        business collaborating with Deriv under its
+                                              partnership programme to earn
+                                              commissions.
+
+ Master Partner     Master partner, master    A Partner who refers individuals to join the
+                           partner            Deriv partnership programme.
+
+  Sub-Partner            sub-partner          A Partner referred by a Master Partner.
+    ✅ Use this              ❌ Not this                           Description
+
+    Platinum+              Platinum plus,        A loyalty status for Partners who stay in
+                             platinum+           the Platinum tier for a full calendar quarter
+                                                 and earn commissions in all three months.
+
+    Quarterly         Quarterly Performance      A 10% bonus on total commissions earned
+   performance             Bonus, QPB            in a calendar quarter, available only to
+      bonus                                      Platinum+ Partners.
+
+ Account Manager,        Account manager,            ●​ Use account manager in running
+ account manager         Country manager,               text, even when referring to Deriv
+                         accountmanager                 (for example, “speak to your Deriv
+                                                        account manager” or “you can
+                                                        contact our account managers”).
+                                                     ●​ Use Account Manager (capital A
+                                                        and M) only when it appears as a
+                                                        formal job title before a name or in
+                                                        signatures and headings (for
+                                                        example, “Contact Deriv Account
+                                                        Manager Manaf” or in an email
+                                                        sign-off).
+                                                     ●​ Always write it as two words, never
+                                                        hyphenated or as a single word.
+
+
+
+
+Disclaimers
+
+This sheet includes all disclaimers, including the ones used for marketing and transactional
+emails for different jurisdictions:
+
+
+   Disclaimers and Risk Warnings - Single Source of Truth
+
+
+
+
+Email footers (jurisdiction links)
+
+To help the Digital Marketing (DM) team use the right URLs for each jurisdiction (e.g. ROW,
+DIEL, DCL, etc.) when sending maintenance or system update emails:
+
+✅ Include
+   ●​ Footer links to:
+         ○​ Help centre
+           ○​ Privacy policy
+           ○​ Terms and conditions
+    ●​ A short internal note:​
+       For DM team use — replace with correct jurisdiction URLs before sending.​
+
+
+
+🚫 Don’t include
+    ●​ Placeholder numbers (e.g. 1, 2, 3)
+    ●​ Non-functional or duplicate links
+    ●​ Any lines that would appear in the client-facing version
+
+​
+💡 Remember
+    ●​ These links are for DM localisation only, not visible to clients.
+    ●​ Always check the latest jurisdiction URLs with DM before launch.
+    ●​ The goal: ensure every email uses the right regional URLs and avoids mismatched
+       links.
+Contact us
+
+Client
+ROW, V1
+Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+ROW, V2
+Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+EU
+Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+UAE
+Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+Partner
+
+ROW V1
+
+For any questions, reach out to your Account Manager or contact us via live chat and
+WhatsApp.
+
+ROW V2
+
+For any questions, reach out to your Account Manager or contact us via live chat and
+WhatsApp.
+
+EU
+
+For any questions, reach out to your Account Manager or contact us via live chat and
+WhatsApp.
+Templates
+
+Email — general (For transactional emails)
+
+ Subject line:
+ [Maximum 40 characters]​
+ (Use this tool to optimise your subject line.)
+
+ Header:
+ [Sentence case, maximum 60 characters]
+
+ Body:
+ [1-3 paragraphs]
+
+ CTA:
+ [A sentence and an action button]
+
+ Closing:
+ [support links: live chat, WhatsApp]
+
+
+ Sample:
+
+ Subject line:
+ Your deposit is successful
+
+ Body:
+
+
+                                Your funds are in
+ Your deposit of [amount][currency code] is successful. We’ve updated the balance of your
+ account [account ID] accordingly.
+
+ Go to Trader’s Hub to check your account balance, trade, or make P2P exchanges.
+
+
+                                        Go to Trader’s Hub
+
+
+ Need help? Our support team is available 24/7 via live chat and WhatsApp.
+Email — canned response (For Customer Support emails via LiveChat)
+
+ Subject line:
+ [Maximum 40 characters]
+
+ Body:
+ [1-3 paragraphs]
+
+ CTA (if needed):
+ [a sentence and a link]
+
+ Closing:
+ Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+
+ Sample:
+
+ Subject line:
+ Support ticket no. xxxx
+
+ Hi [Client’s Name],
+
+ Thank you for contacting us. We’re sorry to hear about the problem you’re facing. To help
+ us understand the issue better, could you please send us screenshots? Just reply to this
+ email with screenshots, and we’ll take care of the rest.
+
+ Thank you for your patience. We’ll keep you updated on our progress.
+
+ Need help? Our support team is available 24/7 via live chat and WhatsApp.
+Email — maintenance (To inform regarding downtimes)
+
+See also: Email (ROW, EU, UAE) - Maintenance email master template
+
+
+ Subject line:
+ [Platform] system maintenance — [date]
+
+ Header:
+ [Platform] system maintenance
+
+ Body:
+ [intro paragraph - what’s happening, when]
+
+ [2nd paragraph - what’s affected, what’s not]
+
+ [3rd paragraph - assurance that we’ll be back online when it’s done]
+
+ Closing:
+ Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+
+ Sample:
+
+ Subject line:
+ cTrader system maintenance — 4 Nov 2023
+
+
+
+                   cTrader system maintenance
+ We will be performing maintenance on Saturday, 4 November 2023, from 7:00 am to
+ 10:00 am GMT.
+
+ During this time:
+    ●​ The Deriv cTrader dashboard and trading on Deriv cTrader will be intermittently
+        unavailable. Check your open positions before the maintenance starts and modify
+        them if needed. You won't be able to modify them during the maintenance period.
+    ●​ Deposits and withdrawals will be unavailable for your Deriv cTrader account.
+
+ Our services will resume as soon as maintenance is complete.
+ Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+
+
+
+YouTube description - social media CTA (To follow Deriv across social networks)
+
+
+ Follow us on social media:
+ Facebook: [Insert Link]
+ Twitter: [Insert Link]
+ Instagram: [Insert Link]
+
+
+ Sample:
+
+ Video title: Welcome to the Deriv Partners channel
+
+ YouTube description: ​
+ ​
+ Get all the information, insights, and inspiration to grow your business and partnership
+ with online trading broker Deriv — all in one place, right here on the Deriv Partners
+ Channel.
+
+ Deriv website: https://deriv.com/
+
+                                  👉🏼(partner webpage link)
+ ​
+ Learn about Deriv partnerships:
+
+ Follow us on social media:
+ Facebook: [Insert Link]
+ Twitter: [Insert Link]
+ Instagram: [Insert Link]

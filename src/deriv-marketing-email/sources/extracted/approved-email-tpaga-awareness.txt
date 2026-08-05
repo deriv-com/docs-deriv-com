@@ -1,0 +1,96 @@
+ Hi team,
+ We kindly request your assistance for an awareness marketing campaign that will happen in
+ partnership with Tpaga, that provided mobile solutions on our fiat Cashier.
+
+
+ clients from Colombia  🇨🇴
+ This campaign aims to educate / bring awareness to client of the available mobile options
+                          .
+
+ CONTENT TEAM: We can follow the step-by-step model we usually do for awareness
+ campaigns. The CTA needs to be "Deposit now" and a link to Deriv Cashier will be inserted.
+ We are attaching the Tpaga logo.
+
+ DESIGN TEAM: we can discuss the final design in the best way that follows your guidelines.
+
+ COMPLIANCE TEAM: This campaign is intended ONLY for Colombia.
+
+ FE TEAM: we will need in English and Spanish
+
+ Please, don't hesitate to reach out PayOps team if you have any doubts. Thank you!
+ ​
+ ClickUp Card
+
+
+
+Email subject line: 📱Pay from your phone in seconds
+Header: Deposit with Tpaga, no card needed
+
+Hi [ name],
+
+Deposit into your Deriv account using only your mobile number. With Tpaga, your phone does
+the work, no card or bank account required.
+
+                      How to deposit with Tpaga on Deriv:
+
+   1.​ In the Cashier, select Tpaga under Deposit via bank wire, credit card, and e-wallet.
+
+
+
+
+   2.​ Enter the deposit amount in your local currency and select Next
+3.​ Follow the instructions in your Tpaga account to finalise the payment.
+
+
+
+
+4.​ Your Deriv balance updates as soon as the transaction is complete.
+Ready to deposit? Tpaga gets you there in a few taps.
+
+CTA button: Deposit now
+
+Need help? Our support team is available 24/7 via live chat and WhatsApp.
+
+V1 Disclaimer:​
+
+
+The products offered on our website, including CFDs, are complex derivative products that carry
+a significant risk of potential loss. You should consider whether you understand how these
+products work and whether you can afford to take the high risk of losing your money. Trading
+conditions, products, and platforms may differ depending on your country of residence.
+
+Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services
+Commission.
+Deriv (FX) Ltd is licensed and regulated by the Labuan Financial Services Authority.
+Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.
+Deriv (Mauritius) Ltd is licensed as an Investment Dealer (Full Service Dealer, excluding
+Underwriting) under the Securities Act 2005 and is regulated by the Financial Services
+Commission, Mauritius.
+Deriv Investments (Cayman) Limited, registered office at Campbells Corporate Services Limited,
+Floor 4, Willow House, Cricket Square, Grand Cayman, Cayman Islands, is regulated by the
+Cayman Islands Monetary Authority.
+Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.
+Deriv Capital International Ltd is a company registered in Samoa.
+Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+No longer want to receive these emails? Unsubscribe
+w
+V2 Disclaimer:
+
+The products offered on our website, including CFDs, are complex derivative products that carry
+a significant risk of potential loss. You should consider whether you understand how these
+products work and whether you can afford to take the high risk of losing your money. Trading
+conditions, products, and platforms may differ depending on your country of residence.
+
+Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services
+Commission.
+Deriv (FX) Ltd is licensed and regulated by the Labuan Financial Services Authority.
+Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.
+Deriv (Mauritius) Ltd is regulated by the Financial Services Commission, Mauritius.
+Deriv Investments (Cayman) Limited, registered at Campbells Corporate Services Limited, Floor
+4, Willow House, Cricket Square, Grand Cayman KY1-9010, Cayman Islands, is regulated by
+the Cayman Islands Monetary Authority.
+Deriv Capital International Ltd is a company registered in Samoa.
+Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.
+
+Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+No longer want to receive these emails? Unsubscribe

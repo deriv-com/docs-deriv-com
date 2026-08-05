@@ -1,0 +1,4 @@
+interface:
+  display_name: Deriv Email Writing
+  short_description: Generate and review Deriv transactional and marketing emails.
+  brand_color: "#ff444f"

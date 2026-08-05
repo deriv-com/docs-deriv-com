@@ -1,0 +1,179 @@
+{
+  "version": "0.2.0",
+  "generated_at": "2026-07-20T06:55:19.179164+00:00",
+  "source": "canonical repository files",
+  "files": [
+    {
+      "path": "claude-skill/deriv-email-writing/SKILL.md",
+      "sha256": "3cadc86500f6cdbd73201be360dfe7f8282c9f9b6325b6ac9e6813bbae41941b"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/agents/openai.yaml",
+      "sha256": "6f1d9967399771e984d795eba49370c325e0b3ee613ea748a554edba5f232a29"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/01-behaviour-and-governance.md",
+      "sha256": "ae5703d2f24775b7f16c5b697da3b85c2998479cd9228ed8c5faf437443acb6b"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/02-transactional-workflow.md",
+      "sha256": "8d5203b631f4ced162a06a560eb82f248bf33f11f167efe9dddcaed64b031686"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/03-marketing-workflow.md",
+      "sha256": "ac99bf0568749c4cc03e6317ea09ad7a3684b8b737bc98fee718a917e64276ed"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/04-editorial-knowledge.md",
+      "sha256": "bb8b706e0cccb39d58142c50facea5fec889c8a81a8a673312e8cec8a7b18370"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/05-claims-and-routing.md",
+      "sha256": "c0d760cefa76d20474f845eaa9479370cd96ab0d8f4a4836d25ea8343d985ec5"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/06-disclosure-catalogue.md",
+      "sha256": "f87a76c8e49363155d10375fabbea44e18d45669e73d62d223b23056f17149f8"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/07-templates.md",
+      "sha256": "b8835a899869817add179a3ceca7fc286312fad990d0f40ddee70a13964d2779"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/08-examples.md",
+      "sha256": "475ac8a19fe12f0ba49c461bf00cc84841e0a8beccd54ed7addde607c00596a5"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/09-anti-examples-and-conflicts.md",
+      "sha256": "6096e0d133d99a5ba7c06effaebd4373b8775871eeac2ce30a975b8c6c88a1bc"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/10-glossary-deriv-com.txt",
+      "sha256": "da8fdc3e7c9a178cf21d37bc26f0e87a75b87d53ba64545b4f328b391977b246"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/11-glossary-deriv-app.txt",
+      "sha256": "79526b6c3cc2e88ced8d5269d510da8221e55b759ed7087b7760a7dbe4c7968f"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/12-evaluation-rubric.md",
+      "sha256": "e997a2facc2dbfdfa51db84a51c51cfd2339e540bd900497e0fa4ec937dd9f81"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/references/disclosures.csv",
+      "sha256": "9b187643139503d44c2832d8c06dd429bed3ad8371b6f56bbecbb3084bc98132"
+    },
+    {
+      "path": "claude-skill/deriv-email-writing/scripts/validate_email.py",
+      "sha256": "2fcd4c617c03bbecd80d555ac99f0a6c0c975e1f10ed5925c62f672fc064b6e6"
+    },
+    {
+      "path": "custom-gpt/conversation-starters.md",
+      "sha256": "6dd99904e0c6430ba3018bdf7559c66e3842565790abe873b0520b5c0beeb3c8"
+    },
+    {
+      "path": "custom-gpt/instructions.md",
+      "sha256": "db8fa316c8ea52c65f68645dd1e8559cbb0ce07f491b63aa3434c8f34ece1e98"
+    },
+    {
+      "path": "custom-gpt/knowledge/01-behaviour-and-governance.md",
+      "sha256": "ae5703d2f24775b7f16c5b697da3b85c2998479cd9228ed8c5faf437443acb6b"
+    },
+    {
+      "path": "custom-gpt/knowledge/02-transactional-workflow.md",
+      "sha256": "8d5203b631f4ced162a06a560eb82f248bf33f11f167efe9dddcaed64b031686"
+    },
+    {
+      "path": "custom-gpt/knowledge/03-marketing-workflow.md",
+      "sha256": "ac99bf0568749c4cc03e6317ea09ad7a3684b8b737bc98fee718a917e64276ed"
+    },
+    {
+      "path": "custom-gpt/knowledge/04-editorial-knowledge.md",
+      "sha256": "bb8b706e0cccb39d58142c50facea5fec889c8a81a8a673312e8cec8a7b18370"
+    },
+    {
+      "path": "custom-gpt/knowledge/05-claims-and-routing.md",
+      "sha256": "c0d760cefa76d20474f845eaa9479370cd96ab0d8f4a4836d25ea8343d985ec5"
+    },
+    {
+      "path": "custom-gpt/knowledge/06-disclosure-catalogue.md",
+      "sha256": "f87a76c8e49363155d10375fabbea44e18d45669e73d62d223b23056f17149f8"
+    },
+    {
+      "path": "custom-gpt/knowledge/07-templates.md",
+      "sha256": "b8835a899869817add179a3ceca7fc286312fad990d0f40ddee70a13964d2779"
+    },
+    {
+      "path": "custom-gpt/knowledge/08-examples.md",
+      "sha256": "475ac8a19fe12f0ba49c461bf00cc84841e0a8beccd54ed7addde607c00596a5"
+    },
+    {
+      "path": "custom-gpt/knowledge/09-anti-examples-and-conflicts.md",
+      "sha256": "6096e0d133d99a5ba7c06effaebd4373b8775871eeac2ce30a975b8c6c88a1bc"
+    },
+    {
+      "path": "custom-gpt/knowledge/10-glossary-deriv-com.txt",
+      "sha256": "da8fdc3e7c9a178cf21d37bc26f0e87a75b87d53ba64545b4f328b391977b246"
+    },
+    {
+      "path": "custom-gpt/knowledge/11-glossary-deriv-app.txt",
+      "sha256": "79526b6c3cc2e88ced8d5269d510da8221e55b759ed7087b7760a7dbe4c7968f"
+    },
+    {
+      "path": "custom-gpt/knowledge/12-evaluation-rubric.md",
+      "sha256": "e997a2facc2dbfdfa51db84a51c51cfd2339e540bd900497e0fa4ec937dd9f81"
+    },
+    {
+      "path": "gemini-gem/instructions.md",
+      "sha256": "0dd9e100555fd71103a53aad5cbc6b355567742570ef60a6f2f39bfa1b948215"
+    },
+    {
+      "path": "gemini-gem/knowledge/01-behaviour-and-governance.md",
+      "sha256": "ae5703d2f24775b7f16c5b697da3b85c2998479cd9228ed8c5faf437443acb6b"
+    },
+    {
+      "path": "gemini-gem/knowledge/02-transactional-workflow.md",
+      "sha256": "8d5203b631f4ced162a06a560eb82f248bf33f11f167efe9dddcaed64b031686"
+    },
+    {
+      "path": "gemini-gem/knowledge/03-marketing-workflow.md",
+      "sha256": "ac99bf0568749c4cc03e6317ea09ad7a3684b8b737bc98fee718a917e64276ed"
+    },
+    {
+      "path": "gemini-gem/knowledge/04-editorial-knowledge.md",
+      "sha256": "bb8b706e0cccb39d58142c50facea5fec889c8a81a8a673312e8cec8a7b18370"
+    },
+    {
+      "path": "gemini-gem/knowledge/05-claims-and-routing.md",
+      "sha256": "c0d760cefa76d20474f845eaa9479370cd96ab0d8f4a4836d25ea8343d985ec5"
+    },
+    {
+      "path": "gemini-gem/knowledge/06-disclosure-catalogue.md",
+      "sha256": "f87a76c8e49363155d10375fabbea44e18d45669e73d62d223b23056f17149f8"
+    },
+    {
+      "path": "gemini-gem/knowledge/07-templates.md",
+      "sha256": "b8835a899869817add179a3ceca7fc286312fad990d0f40ddee70a13964d2779"
+    },
+    {
+      "path": "gemini-gem/knowledge/08-examples.md",
+      "sha256": "475ac8a19fe12f0ba49c461bf00cc84841e0a8beccd54ed7addde607c00596a5"
+    },
+    {
+      "path": "gemini-gem/knowledge/09-anti-examples-and-conflicts.md",
+      "sha256": "6096e0d133d99a5ba7c06effaebd4373b8775871eeac2ce30a975b8c6c88a1bc"
+    },
+    {
+      "path": "gemini-gem/knowledge/10-glossary-deriv-com.txt",
+      "sha256": "da8fdc3e7c9a178cf21d37bc26f0e87a75b87d53ba64545b4f328b391977b246"
+    },
+    {
+      "path": "gemini-gem/knowledge/11-glossary-deriv-app.txt",
+      "sha256": "79526b6c3cc2e88ced8d5269d510da8221e55b759ed7087b7760a7dbe4c7968f"
+    },
+    {
+      "path": "gemini-gem/knowledge/12-evaluation-rubric.md",
+      "sha256": "e997a2facc2dbfdfa51db84a51c51cfd2339e540bd900497e0fa4ec937dd9f81"
+    }
+  ]
+}

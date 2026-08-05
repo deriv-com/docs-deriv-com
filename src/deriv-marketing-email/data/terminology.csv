@@ -1,0 +1,21 @@
+term_id,status,preferred_term,avoid_terms,definition,context,market,email_class,case_sensitive,owner,source_id,last_verified,notes
+TERM-001,approved,Deriv MT5,dMT5|Mt5|mt5,Multi-asset trading platform name,product name,ALL,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-002,approved,Deriv cTrader,Dctrader|DCTRADER,Trading platform name,product name,ROW,all,yes,Content Team,SRC-001,2026-07-20,Availability must be confirmed.
+TERM-003,approved,Deriv GO,Deriv go|Deriv Go,Mobile trading app name,product name,ROW,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-004,approved,Deriv Bot,dBot|DerivBot,Automated trading platform name,product name,ROW,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-005,approved,Deriv Trader,DTrader|dTrader|DT,Trading platform name,product name,ALL,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-006,approved,SmartTrader,smart trader|Smart Trader|ST,Trading platform name,product name,ROW,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-007,approved,Partner’s Hub,PH|Partners Hub,Partner account platform,partner product name,ALL,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-008,approved,Deriv partnership programme,Deriv partnership program|Deriv Partnership programme,Partnership programme name,partner terminology,ALL,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-009,approved,Partner tiering programme,Partner Tiering programme,Partner performance programme name,partner terminology,ALL,all,yes,Content Team,SRC-001,2026-07-20,
+TERM-010,approved,account manager,Account Manager in running text|accountmanager,Role reference in running text,partner terminology,ALL,all,no,Content Team,SRC-001,2026-07-20,Capitalise only as a formal title.
+TERM-011,approved,log in,login as a verb,Verb for accessing an account,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,Login may be a noun or adjective.
+TERM-012,approved,sign up,signup,Verb for registration,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,Sign-up may be a noun or adjective.
+TERM-013,approved,email,e-mail,Electronic mail,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,
+TERM-014,approved,e-wallet,ewallet,Electronic wallet,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,
+TERM-015,approved,US dollar Wallet,US Dollar Wallet|US dollar wallet,Wallet named with currency words,product naming,ALL,all,yes,Content Team,SRC-001,2026-07-20,Currency lowercase; Wallet capitalised.
+TERM-016,approved,USD Wallet,USd Wallet|usd Wallet,Wallet named with ISO code,product naming,ALL,all,yes,Content Team,SRC-001,2026-07-20,ISO code in full capitals.
+TERM-017,controlled,trade,invest,Preferred customer-facing verb,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,Exact disclosures may use investment terminology.
+TERM-018,controlled,trader,investor,Preferred customer-facing audience term,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,Exact disclosures may use investor.
+TERM-019,controlled,earn or receive,win,Preferred reward wording,editorial,ALL,marketing,no,Content Team,SRC-001,2026-07-20,
+TERM-020,controlled,press,hit,Preferred control verb,editorial,ALL,all,no,Content Team,SRC-001,2026-07-20,

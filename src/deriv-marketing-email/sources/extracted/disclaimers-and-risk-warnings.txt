@@ -1,0 +1,291 @@
+                                                                                                                                                                      Emails
+
+            This section contains the language that must be added as a footer to every email, depending on which company is sending it out, the recipient (clients or business partners) and the content of the email. If you are not sure if something is a marketing email, err on the side of caution and assume it is.
+
+Category of email     Target Audience Subject of email Language we use                                                                                                   What do you need to tailor?            Why is this required?
+                                                           This email is a marketing email intended for retail and professional clients and has been issued and        Please adapt:                            S.6(1) of the Companies Act mandates the following must be included on "business letters". We have taken the view emails
+                                                           approved for distribution by Deriv Investments (Europe) Limited, a company incorporated in Malta with       1. Adapt type of communication: we       constitute "business letters".
+                                                           registration number C 70156, and its registered address at W Business Centre, Level 3, Triq Dun Karm,       use "marketing email" as a default but   1. name of company - this is included in paragraph 1;
+                                                           Birkirkara, BKR 9033, Malta.                                                                                amend if necessary in case the           2. kind of commercial partnership (i.e. company) - this is included in paragraph 1;
+                                                                                                                                                                       communication is not about               3. registered office - this is included in paragraph 1;
+                                                           Deriv Investments (Europe) Limited is licensed and regulated by the Malta Financial Services Authority      marketing, just product information.     4. registration number - this is included in paragraph 1.
+                                                           under the Investment Services Act to provide investment services to EEA states under EU passporting         ie: "This email is an informational
+                                                           rights. It is the manufacturer and distributor of its products.                                             email..."                                Required statements for both Advertisements and Information are:
+                                                                                                                                                                       2. Adapt target audience: we use         1. R.1.2.8 - identify member state where DIEL is registered - this is included in paragraph 1;
+                                                           The products offered by Deriv Investments (Europe) Limited, including CFDs, are classed as 'complex         “retail and professional clients” as a   2. R.1.2.14 - regulatory disclosure statement stating DIEL is regulated by MFSA and a reference to the legislation under which it is
+                                                           products' and may not be appropriate for retail clients. CFDs are complex instruments with a high risk of   default but amend it if necessary        regulated - this is included in paragraph 2;
+                                                           losing money rapidly due to leverage. 74% of retail investor accounts lose money when trading CFDs with     depending on the audience;               3. R.1.2.18 - name and address of DIEL - this is included in pararaph 1;
+                                                           this provider. You should consider whether you understand how CFDs work and whether you can afford to       3. CFD risk warning: if the email is     4. R 1.2.18 - identify the manufacturer or distributor of the product - this is in paragraph 2;
+                                                           take the high risk of losing your money.                                                                    not referring to CFDs, you can remove    5. R. 1.2.23 - if it is aimed at an identified target market, a statement indicating the identified target market - this is in paragraph 1;
+                                                                                                                                                                       the CFD wording in paragraph 4 and ',    6. R.1.2.29 - currency exchange rate fluctuation notice - this is included in paragraph 4. It is applicable to all products apart from
+                                                           Please also note that the information we provide does not constitute investment advice and it may become including CFDs,' in paragraph 3,            synthetic indices, but we almost never have content solely about synthetic indices, so we are including in our standard template;
+                                                           outdated. Your capital is at risk. The value of your investment may go down as well as up. Our products may although there is no 'harm' in keeping   7. R.1.2.50 - if using past performance figures of a financial index or DIEL's products, a warning they are not a guarantee of future
+                                                           be affected by changes in currency exchange rates.                                                          this in;                                 performance - this should be added if applicable as per point 3 in the section "what do you need to tailor?".
+                                                                                                                                                                       4. Add past performance wording if
+                                                           To learn more about how we protect your personal and financial information, please read our Privacy Policy. needed: If the email uses past           Required statements for Advertisements (but not Information):
+                                                                                                                                                                       performance figures, include this        1. R.1.2.28 - because our products are complex, a warning that they may not be suitable for retail clients - this is included in
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Key information documents.                            wording "The performance figures         paragraph 3;
+EU (DIEL) Emails to
+                      CLIENTS           MARKETING                                                                                                                      quoted refer to the past, and past       2. R 1.2.30 - statement of capital at risk i.e. client may not get back 100% of initial capital invested - this is included in paragraph 4
+CLIENTS
+                                                                                                                                                                       performance is not a guarantee of        ("capital at risk").
+                                                                                                                                                                       future performance or a reliable guide   3. R. 1.2.36 - the value of investment may go down as well as up - this is included in paragraph 4;
+                                                                                                                                                                       to future performance."                  4. R.1.2.68 - R. 1.2.74 - mandatory CFD risk warning - this is included in paragraph 3.
+
+                                                                                                                                                                                                                NB Under the Rulebook, "Information means any material provided to clients or potential clients by the Regulated Person with the
+                                                                                                                                                                                                                purpose to inform such clients or potential clients of any Service, Product or financial instrument." Because the distinction between
+                                                                                                                                                                                                                Advertisements and Information can be a grey area in Deriv's case, we take the approach of applying all of the requirements for
+                                                                                                                                                                                                                Advertisements to the email even if it is Information only.
+
+                                                                                                                                                                                                                NB the following in terms of font size etc. R.1.2.6 requires that warnings must not be "disguised, dimished or obscured". R.1.2.7 requires
+                                                                                                                                                                                                                Advertisements/Information to give a "fair and prominent indication of relevant risks". R.1.2.13 requires warnings to be shown
+                                                                                                                                                                                                                "prominently, clearly and intelligibly". R.1.2.24 requires that warning statements are of a font size at least equal to the predominent
+                                                                                                                                                                                                                font size used througout the document/Advertisement/Information.
+
+                                                                                                                                                                                                                - The following wording is included for good practice rather than meeting a strict requirement "Please also note that the information we
+                                                                                                                                                                                                                provide does not constitute investment advice and it may become outdated." Prior to March 2025, we used this language: "This
+                                                                                                                                                                                                                information is considered accurate and correct at the date of publication. Changes in circumstances after the time of publication may
+                                                                                                                                                                                                                impact the accuracy of the information." but the current language aimed to shorten this and remove any potential warranty.
+
+                                                                                                                                                                                                                - The 5th paragraph about the privacy policy is there to satsify Articles 13 & 14 GDPR (clients' right to be informed). We include this
+                                                                                                                                                                                                                sentence as the EU emails do not have a separate link to the Security and Privacy Policy footer at the bottom (there is a link to the KIDs
+                                                                                                                                                                                                                page instead).
+                                                           This is a notification email to inform clients about important updates and has been issued by Deriv           You can adapt "important updates"    S.6(1) of the Companies Act mandates the following must be included on "business letters". We have taken the view emails
+                                                           Investments (Europe) Limited, a company incorporated in Malta, with registration number C 70156, and its      with more relevant wording depending constitute "business letters".
+                                                           registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta.                 on the subject of the email.         1. name of company - this is included in paragraph 1;
+                                                                                                                                                                                                              2. kind of commercial partnership (i.e. company) - this is included in paragraph 1;
+                                        TRANSACTIONAL
+                                                           Deriv Investments (Europe) Limited is licensed and regulated by the Malta Financial Services Authority                                             3. registered office - this is included in paragraph 1;
+                                        e.g. account
+                                                           under the Investment Services Act to provide investment services to EEA states under EU passporting                                                4. registration number - this is included in paragraph 1.
+EU (DIEL) Emails to                     withdrawal
+                      CLIENTS                              rights.
+CLIENTS                                 emails, system
+                                                                                                                                                                                                                Under the Rulebook, "Information means any material provided to clients or potential clients by the Regulated Person with the purpose
+                                        maintenance
+                                                           To learn more about how we protect your personal and financial information, please read our Privacy Policy.                                          to inform such clients or potential clients of any Service, Product or financial instrument." Therefore, in order to class an email as
+                                        warning etc.
+                                                                                                                                                                                                                transactional, we must be certain it does not fall within scope of "Information".
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Key information documents.
+                                                                                                                                                                                                                We nevertheless include the regulatory disclosure statement (R.1.2.14) which only applies to Advertisements and Information here as
+                                                                                                                                                                                                                good practice for transparency to clients.
+                                                                                                                                                                        Emails
+
+            This section contains the language that must be added as a footer to every email, depending on which company is sending it out, the recipient (clients or business partners) and the content of the email. If you are not sure if something is a marketing email, err on the side of caution and assume it is.
+
+Category of email     Target Audience Subject of email Language we use                                                                                                    What do you need to tailor?              Why is this required?
+                                                           This email is a marketing email intended for partners and has been issued and approved for distribution by     Please adapt:                            This is the language to be used for business partners of DIEL only.
+                                                           Deriv Investments (Europe) Limited, a company incorporated in Malta with registration number C 70156,          1. CFD risk warning: if the email is
+                                                           and its registered address at W Business Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta.          not referring to CFDs, you can remove    For business partners of ROW companies, even if the business partner lives in the EU, the ROW footer should be used. The MFSA
+                                                                                                                                                                          the CFD wording in paragraph 4 and ',    Rulebook relates to Advertisements and Information which must, by definition, be provided by the Regulated Person (i.e. DIEL) so if DIEL
+                                                           Deriv Investments (Europe) Limited is licensed and regulated by the Malta Financial Services Authority         including CFDs,' in paragraph 3;         is not the sender, the marketing requirements in the Rulebook do not apply.
+                                                           under the Investment Services Act to provide investment services to EEA states under EU passporting            2. Add past performance wording if
+                                                           rights. It is the manufacturer and distributor of its products.                                                needed: If the email uses past           By definition "Advertisements" and "Information" are directed to clients only. However, other than the intended audience, this is exactly
+                                                                                                                                                                          performance figures, include this        the same content as the marketing email to clients. This is because marketing emails to partners will likely be talking about our
+                                                           The products offered by Deriv Investments (Europe) Limited, including CFDs, are classed as 'complex            wording "The performance figures         regulated products and therefore we are taking a risk-averse approach that the regulator still deems these to "Advertisements" and
+EU (DIEL) Emails to                                        products' and may not be appropriate for retail clients. CFDs are complex instruments with a high risk of      quoted refer to the past, and past       "Information", despite the different audience.
+                      BUSINESS
+BUSINESS                                MARKETING          losing money rapidly due to leverage. 74% of retail investor accounts lose money when trading CFDs with        performance is not a guarantee of
+                      PARTNERS
+PARTNERS                                                   this provider. You should consider whether you understand how CFDs work and whether you can afford to          future performance or a reliable guide
+                                                           take the high risk of losing your money.                                                                       to future performance."
+
+                                                           Please also note that the information we provide does not constitute investment advice and it may become
+                                                           outdated. Your capital is at risk. The value of your investment may go down as well as up. Our products may
+                                                           be affected by changes in currency exchange rates.
+
+                                                           To learn more about how we protect your personal and financial information, please read our Privacy Policy.
+
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Key information documents.
+                                                           This is a notification email for partners and has been issued by Deriv Investments (Europe) Limited, a    No tailoring required.                        S.6(1) of the Companies Act mandates the following must be included on "business letters". We have taken the view emails
+                                                           company incorporated in Malta, with registration number C 70156, and its registered address at W Business                                               constitute "business letters".
+                                        ACCOUNT
+                                                           Centre, Level 3, Triq Dun Karm, Birkirkara, BKR 9033, Malta.                                                                                            1. name of company - this is included in paragraph 1;
+                                        RELATED or
+                                                                                                                                                                                                                   2. kind of commercial partnership (i.e. company) - this is included in paragraph 1;
+                                        purely about the
+EU (DIEL) Emails to                                        Deriv Investments (Europe) Limited is licensed and regulated by the Malta Financial Services Authority                                                  3. registered office - this is included in paragraph 1;
+                      BUSINESS          AFFILIATE
+BUSINESS                                                   under the Investment Services Act to provide investment services to EEA states under EU passporting                                                     4. registration number - this is included in paragraph 1.
+                      PARTNERS          PROGRAMME
+PARTNERS                                                   rights.
+                                        (and not our
+                                                                                                                                                                                                                   Other than the intended audience, this is exactly the same wording as the transactional email to clients. Whilst not an "Advertisement"
+                                        products or
+                                                           To learn more about how we protect your personal and financial information, please read our Privacy Policy.                                             or "Information", we nevertheless include the regulatory disclosure statement (R.1.2.14) which only applies to "Advertisements" here as
+                                        trading)
+                                                                                                                                                                                                                   good practice for transparency to business partners.
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Key information documents.
+                                                           The products offered on our website, including CFDs, are complex derivative products that carry a              1. For content that mentions past        Due to the way the Digital Marketing team sends emails from customer.io, clients of DBVI, DFX, DVL and DML and DSVG will all be
+                                                           significant risk of potential loss. You should consider whether you understand how these products work and     performance or future performance        on the email list. They do not segregate between landing company for operational ease and because nearly half of clients have
+                                                           whether you can afford to take the high risk of losing your money. Trading conditions, products, and           figures (e.g. Financial News and         MT5 accounts with multiple Deriv entities.
+                                                           platforms may differ depending on your country of residence.                                                   Economic Calendar), include: "The
+                                                                                                                                                                          performance figures quoted are not a     Risk warnings: DML and DFX both have requirements to include risk warnings, although no specific language is mandated. Separately, it
+                                                           Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services Commission.         guarantee of future performance."        is company policy to include risk warnings to protect the companies against class actions from clients claiming they were not adequately
+                                                           Deriv (FX) Ltd is licensed and regulated by the Labuan Financial Services Authority.                                                                    warned that the products are risky. We have chosen the wording here because it is similar to what we use for EU, although we do not
+                                                           Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.                         2. For content that suggests that         need to include the loss percentage.
+                                                           Deriv (Mauritius) Ltd is licensed as an Investment Dealer (Full Service Dealer, excluding Underwriting) under partners contact a Deriv master
+                                                           the Securities Act 2005 and is regulated by the Financial Services Commission, Mauritius.                     partner (eg: join their WhatsApp          Company information:
+                                                           Deriv Investments (Cayman) Limited, registered office at Campbells Corporate Services Limited, Floor 4,       group or Telegram group for               DBVI has a requirement to include the company name on every "written communication sent by, or on behalf of, the company", as per
+ROW (for DBVI, DFX,
+                                                           Willow House, Cricket Square, Grand Cayman, Cayman Islands, is regulated by the Cayman Islands                mentoring or for educational tips         Section 26 of the BVI Companies Act. We have interpreted this as including emails.
+DVL, DICSEZC, and
+                    CLIENTS             MARKETING          Monetary Authority.                                                                                           and suggestion): The
+DML)
+                                                           Deriv Capital International Ltd is a company registered in Samoa                                              program/initiative is facilitated by an   For DFX, the Labuan Companies Act 1990, section 86(2) states that the name of a Labuan company must appear on “business letters,
+Emails to CLIENTS
+                                                           Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.                                  independent party, not Deriv. To the      statements of account, official notices, publications, bills of exchange, promissory notes…” Whilst “business letters” is not specifically
+                                                                                                                                                                         extent permitted by law, Deriv is not     defined as including emails, we should include it as good practice.
+                                                                                                                                                                         liable for any matters arising from or
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.                                         related to the program/initiative.      For DML, S. 38 of the Companies Act states the name of the company must be included in "every written communication sent by, or on
+                                                                                                                                                                                                                 behalf of, the company". If the email is an advertisement, it must also include the legislative framework under which the licence is
+                                                                                                                                                                          3. Follow the company tags to cross- issued and describe the activities permitted under the licence (a requirement for all marketing materials as per licensing conditions).
+                                                                                                                                                                          check which company info to
+                                                                                                                                                                          include. For example, if the marketing Other: we added this "Trading conditions, products, and platforms may differ depending on your country of residence." as due to the
+                                                                                                                                                                          email about Deriv API only, the        nature of the mailing lists, clients may be onboarded with DBVI but receive emails about products only available with DML (for example).
+                                                                                                                                                                          disclaimer should only have DSVG's
+                                                                                                                                                                          company info.
+                                                       Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services Commission.             Follow the company tags to cross-        Risk warnings are not applicable here.
+                                                       Deriv (FX) Ltd is licensed and regulated by the Labuan Financial Services Authority.                               check which company info to
+                                                       Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.                              include. For example: if the             Company information:
+                                        TRANSACTIONAL Deriv (Mauritius) Ltd is regulated by the Financial Services Commission, Mauritius.                                 notification email is about Deriv        DBVI has a requirement to include the company name on every "written communication sent by, or on behalf of, the company", as per
+                                        e.g. account   Deriv Investments (Cayman) Limited is regulated by the Cayman Islands Monetary Authority.                          cTrader only, the disclaimer should      Section 26 of the BVI Companies Act. We have interpreted this as including emails.
+ROW (for DBVI, DFX,
+                                        withdrawal     Deriv Capital International Ltd is a company registered in Samoa.                                                  only have DSVG's company info.
+DVL and DML)        CLIENTS
+                                        emails, system Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.                                                                                For DFX, the Labuan Companies Act 1990, section 86(2) states that the name of a Labuan company must appear on “business letters,
+Emails to CLIENTS
+                                        maintenance                                                                                                                                                                statements of account, official notices, publications, bills of exchange, promissory notes…” Whilst “business letters” is not specifically
+                                        warning etc.                                                                                                                                                               defined as including emails, we should include it as good practice.
+                                                       Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+                                                                                                                                                                                                                   For DML, S. 38 of the Companies Act states the name of the company must be included in "every written communication sent by, or on
+                                                                                                                                                                                                                   behalf of, the company".
+                                                                                                                                                                        Emails
+
+           This section contains the language that must be added as a footer to every email, depending on which company is sending it out, the recipient (clients or business partners) and the content of the email. If you are not sure if something is a marketing email, err on the side of caution and assume it is.
+
+Category of email    Target Audience Subject of email Language we use                                                                                                      What do you need to tailor?              Why is this required?
+                                                          The products offered on our website, including CFDs, are complex derivative products that carry a               2. For content that suggests that         This is exactly the same wording as the marketing email to clients, and has to meet those same requirements.
+                                                          significant risk of potential loss. You should consider whether you understand how these products work and      partners contact a Deriv master
+                                                          whether you can afford to take the high risk of losing your money. Trading conditions, products, and            partner (eg: join their WhatsApp
+                                                          platforms may differ depending on your country of residence.                                                    group or Telegram group for
+ROW (for DBVI, DVL
+                                                                                                                                                                          mentoring or for educational tips
+and DML)           BUSINESS
+                                       MARKETING          Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services Commission.          and suggestion): The
+Emails to BUSINESS PARTNERS
+                                                          Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.                           program/initiative is facilitated by an
+PARTNERS
+                                                          Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.                                    independent party, not Deriv. To the
+                                                                                                                                                                          extent permitted by law, Deriv is not
+                                                          Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.                                           liable for any matters arising from or
+                                                                                                                                                                          related to the program/initiative.
+                                       ACCOUNT            Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services Commission.          No tailoring required.                    This is exactly the same wording as the transactional email to clients, and has to meet those same requirements.
+                                       RELATED or         Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.
+ROW (for DBVI, DVL                     purely about the   Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.
+and DML)           BUSINESS            AFFILIATE
+Emails to BUSINESS PARTNERS            PROGRAMME          Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+PARTNERS                               (and not our
+                                       products or
+                                       trading)
+                                                          This marketing email is intended for retail and professional clients. Deriv Capital Contracts & Currencies L.L. Please adapt:                             Section 13 of the UAE Federal Decree Law No. 32 of 2021 on Commercial Companies states: “All contracts, documents,
+                                                          C is a limited liability company registered in Dubai, UAE, under registration number 2279721. Its registered 1. Adapt target audience: we use             correspondences, and applications forms issued by the Company shall bear its name, legal form, registration number, and address
+                                                          office (2402) and place of business (2201) are located at One by Omniyat, Business Bay, Dubai.                  “retail and professional clients” as a    and, if the share capital of the Company is added to such particulars, the amount of the paid share capital shall be stated.” We
+                                                                                                                                                                          default but amend it if the email is      include this information in paragraph 1.
+                                                          The company is licensed and regulated by the Capital Market Authority (CMA) as a Category 1 Trading             only for professional investors or
+                                                          Broker for Over-the-Counter Derivatives Contracts & Currencies Spot Markets, a Financial Products Dealer counterparts.                                    Section 1, Article (8) of CMA Regs (Disclosure of the legal status) states a licensed entity must disclose its legal status through the
+                                                          (Licence 20200000243), and a Category 5 Financial Consultant (Licence 20200000199).                                                                       following actions:
+                                                                                                                                                                                                                    1. Disclose to third parties that it is licensed by the Authority and is subject to the Authority’s control and supervision with
+                                                          The products offered on our website, including CFDs, are complex derivative products that carry a                                                         showing the license category and the financial activity it conducts - this is met by the second paragraph of our language;
+                                                          significant risk of potential loss. You should consider whether you understand how these products work and                                                2. Include in its letterhead, in all its documents [irrelevant wording omitted] that it is a body organized and subject to the CMA,
+                                                          whether you can afford to take the high risk of losing your money.                                                                                        along with its licence number and address. This is required in... content published on the website....- we meet this requirement in
+                                                                                                                                                                                                                    the second paragraph which includes licence numbers. The address is included in the first paragraph.
+UAE (for DCL) Emails                                      Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+                     CLIENTS           MARKETING
+to CLIENTS                                                                                                                                                                                                          Section 3, Chapter 4, Article 8 (Marketing of Financial Services) of the CMA Regulations states that marketing materials must include the
+                                                                                                                                                                                                                    following:
+                                                                                                                                                                                                                    1. Clear name of the licensed body, its legal status, and the license or approval it obtained - this is included in the first and second
+                                                                                                                                                                                                                    paragraphs;
+                                                                                                                                                                                                                    2. A clear statement of the financial services it is licensed or approved to provide - this is included in the second paragraph;
+                                                                                                                                                                                                                    3. A clear statement in case the marketing material is intended for the professional investor or counterpart only - we include an
+                                                                                                                                                                                                                    intended audience out of an abundance of caution by including "email is intended for retail and professional clients".
+
+                                                                                                                                                                                                                    The risk warnings are included as good practice to reduce risk of a class action, and also as part of the DCL's obligations to assess the
+                                                                                                                                                                                                                    suitability of products for clients. Section 3, Chapter 2, Article 8, paragraph 3 of the CMA Regs states:
+                                                                                                                                                                                                                    “The licensed body must provide the client with sufficient information to evaluate the benefits, costs, and risks of the financial product
+                                                                                                                                                                                                                    and indicate any potential risks that the client's interest may be exposed to.” There are no specific legal or regulatory requirements that
+                                                                                                                                                                                                                    we found for DCL to use particular wording for risk warnings.
+                                                          Deriv Capital Contracts & Currencies L.L.C is a limited liability company registered in Dubai, UAE, under       No tailoring required.                    This has to meet all of the same requirements as marketing emails to clients, except that Section 3, Chapter 4, Article 8 (Marketing of
+                                                          registration number 2279721. Its registered office (2402) and place of business (2201) are located at One                                                 Financial Services) of the CMA Regulations applies only to marketing materials. Those requirements are duplicative of other
+                                       TRANSACTIONAL
+                                                          by Omniyat, Business Bay, Dubai.                                                                                                                          requirements, other than the statement "in case marketing material is intended for the professional investor or counterpart only" which
+                                       e.g. account
+                                                                                                                                                                                                                    is not included here.
+UAE (for DCL) Emails                   withdrawal
+                     CLIENTS                              The company is licensed and regulated by the Capital Market Authority (CMA) as a Category 1 Trading
+to CLIENTS                             emails, system
+                                                          Broker for Over-the-Counter Derivatives Contracts & Currencies Spot Markets, a Financial Products Dealer                                                  Risk warnings are not included here as they are not relevant.
+                                       maintenance
+                                                          (Licence 20200000243), and a Category 5 Financial Consultant (Licence 20200000199).
+                                       warning etc.
+
+                                                          Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+UAE (for DCL) Emails                                      N/A                                                                                                             No tailoring required.                    Not applicable as DCL is not currently accepting business partners.
+                     BUSINESS
+to BUSINESS                            N/A
+                     PARTNERS
+PARTNERS
+                                                                                                                                                                          No tailoring required.
+
+                                                      Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services Commission.
+                                       TRANSACTIONAL
+V2 (DBVI, DVL, DML,                                   Deriv (FX) Ltd is licensed and regulated by the Labuan Financial Services Authority.
+                                       e.g. account
+DCI, DSVG, and                                        Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.
+                                       withdrawal
+DICSEZC)              CLIENTS                         Deriv (Mauritius) Ltd is regulated by the Financial Services Commission, Mauritius.
+                                       emails, system
+notification/transact                                 Deriv Investments (Cayman) Limited is regulated by the Cayman Islands Monetary Authority.
+                                       maintenance
+ional emails                                          Deriv Capital International Ltd is a company registered in Samoa.
+                                       warning etc.
+                                                      Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.
+
+                                                          Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+                                                                                                                                                                     Emails
+
+            This section contains the language that must be added as a footer to every email, depending on which company is sending it out, the recipient (clients or business partners) and the content of the email. If you are not sure if something is a marketing email, err on the side of caution and assume it is.
+
+Category of email    Target Audience Subject of email Language we use                                                                                                  What do you need to tailor?     Why is this required?
+                                                           The products offered on our website, including CFDs, are complex derivative products that carry a          No tailoring required.
+                                                           significant risk of potential loss. You should consider whether you understand how these products work and
+                                                           whether you can afford to take the high risk of losing your money. Trading conditions, products, and
+                                                           platforms may differ depending on your country of residence.
+
+                                                           Deriv (BVI) Ltd is licensed and regulated by the British Virgin Islands Financial Services Commission.
+V2 (DBVI, DVL, DML,                                        Deriv (FX) Ltd is licensed and regulated by the Labuan Financial Services Authority.
+DCI, DSVG, and                                             Deriv (V) Ltd is licensed and regulated by the Vanuatu Financial Services Commission.
+                    CLIENTS             MARKETING
+DICSEZC) marketing                                         Deriv (Mauritius) Ltd is regulated by the Financial Services Commission, Mauritius.
+emails                                                     Deriv Investments (Cayman) Limited, registered at Campbells Corporate Services Limited, Floor 4, Willow
+                                                           House, Cricket Square, Grand Cayman KY1-9010, Cayman Islands, is regulated by the Cayman Islands
+                                                           Monetary Authority.
+                                                           Deriv Capital International Ltd is a company registered in Samoa.
+                                                           Deriv (SVG) LLC is a company registered in Saint Vincent and the Grenadines.
+
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+                                                           The products offered on our website, including CFDs, are complex derivative products that carry a          No tailoring required.
+                                                           significant risk of potential loss. You should consider whether you understand how these products work and
+                                                           whether you can afford to take the high risk of losing your money. Trading conditions, products, and
+V2 (DCI) marketing   BUSINESS                              platforms may differ depending on your country of residence.
+                                        MARKETING
+emails               PARTNERS
+                                                           Deriv Capital International Ltd is a company registered in Samoa.
+
+                                                           Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
+                                        TRANSACTIONAL                                                                                                                  No tailoring required.
+                                        e.g. account
+V2 (DCI)             BUSINESS           withdrawal
+transactional emails PARTNERS           emails, system Deriv Capital International Ltd is a company registered in Samoa.
+                                        maintenance
+                                        warning etc.   Links: (1) Help centre; (2) Terms and conditions; (3) Privacy policy.
