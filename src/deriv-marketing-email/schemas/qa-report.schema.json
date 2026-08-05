@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:deriv-email-ai:schema:qa-report:0.2.0",
+  "title": "Brokerage email QA report",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "overall_result": {
+      "type": "string",
+      "enum": [
+        "pass_with_human_review",
+        "revise",
+        "blocked"
+      ]
+    },
+    "brief_coverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/check"
+      }
+    },
+    "mechanical_checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/check"
+      }
+    },
+    "writing_quality": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/check"
+      }
+    },
+    "claim_checks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/check"
+      }
+    },
+    "required_reviewers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blocking_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "overall_result",
+    "brief_coverage",
+    "mechanical_checks",
+    "writing_quality",
+    "claim_checks",
+    "required_reviewers",
+    "blocking_reasons"
+  ],
+  "$defs": {
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "check_id": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "result": {
+          "type": "string",
+          "enum": [
+            "pass",
+            "fail",
+            "warning",
+            "not_applicable"
+          ]
+        },
+        "severity": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "required_action": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "check_id",
+        "description",
+        "result",
+        "severity"
+      ]
+    }
+  }
+}

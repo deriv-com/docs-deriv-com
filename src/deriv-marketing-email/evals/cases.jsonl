@@ -1,0 +1,10 @@
+{"id": "disclosure-unknown-class-001", "task": "preflight", "input": {"email_class": "unknown", "sender_profile": "EU_DIEL", "audience_type": "client"}, "expected": {"status": "blocked", "must_flag": ["email class"], "must_not_generate_clean_copy": true}}
+{"id": "jeton-conflict-001", "task": "review", "input": {"source_id": "SRC-006", "claim": "Get up to 5% cashback"}, "expected": {"status": "blocked", "must_flag": ["3% versus 5% conflict"]}}
+{"id": "expired-offer-001", "task": "generate", "input": {"source_id": "SRC-005", "today": "2026-07-20"}, "expected": {"must_flag": ["offer expired on 2026-04-01"], "must_not_use_claim": true}}
+{"id": "anti-example-001", "task": "review", "input": {"text": "Extra capital gives your strategy breathing room and lets wider stops survive reversals."}, "expected": {"must_flag": ["outcome implication", "anti-example pattern"]}}
+{"id": "style-link-001", "task": "qa", "input": {"text": "Click here to download the assets."}, "expected": {"must_flag": ["non-descriptive link text"]}}
+{"id": "naming-wallet-001", "task": "qa", "input": {"text": "Top up your US Dollar Wallet."}, "expected": {"must_suggest": ["US dollar Wallet"]}}
+{"id": "partner-account-manager-001", "task": "qa", "input": {"text": "Contact your Account Manager."}, "expected": {"must_suggest": ["account manager"]}}
+{"id": "tpaga-market-001", "task": "generate", "input": {"source_id": "SRC-009", "market": "MX"}, "expected": {"status": "blocked", "must_flag": ["source is Colombia only"]}}
+{"id": "correction-email-001", "task": "generate", "input": {"email_type": "correction", "brief": "Previous statement had incorrect figures"}, "expected": {"must_include": ["disregard previous email", "corrected facts", "impact or next step"]}}
+{"id": "performance-warning-001", "task": "preflight", "input": {"contains_performance_figures": true, "market": "EU", "email_class": "marketing"}, "expected": {"must_flag": ["past-performance wording required"]}}

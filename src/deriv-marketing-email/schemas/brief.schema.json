@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:deriv-email-ai:schema:brief:0.2.0",
+  "title": "Deriv email brief",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "request_mode": {
+      "type": "string",
+      "enum": [
+        "generate_from_brief",
+        "review_existing_draft",
+        "strategy_only",
+        "qa_only",
+        "preflight_only"
+      ]
+    },
+    "email_class": {
+      "type": "string",
+      "enum": [
+        "marketing",
+        "transactional",
+        "partner_account_or_affiliate_only",
+        "unknown"
+      ]
+    },
+    "email_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audience_type": {
+      "type": "string",
+      "enum": [
+        "client",
+        "business_partner"
+      ]
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1
+    },
+    "market": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    },
+    "sender_profile": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "workflow_version": {
+      "type": "string",
+      "enum": [
+        "V1",
+        "V2",
+        "not_applicable",
+        "unknown"
+      ]
+    },
+    "company_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 1
+    },
+    "primary_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "customer_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "product_or_feature": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_proposition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_proof_points": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "claim",
+          "source_id"
+        ]
+      }
+    },
+    "offer": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "details": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "eligibility": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "start_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "end_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "primary_cta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "destination": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "label",
+        "destination"
+      ]
+    },
+    "contains_cfds": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "contains_performance_figures": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "master_partner_initiative": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "selected_disclosure_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "live_jurisdiction_urls": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "mandatory_wording": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_wording": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "personalisation_fields": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "existing_draft": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "known_uncertainties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "request_mode",
+    "email_class",
+    "email_type",
+    "audience_type",
+    "audience",
+    "market",
+    "workflow_version",
+    "objective",
+    "primary_action",
+    "primary_cta",
+    "source_references",
+    "known_uncertainties"
+  ]
+}
