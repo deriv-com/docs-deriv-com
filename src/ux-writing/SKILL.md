@@ -18,29 +18,15 @@ Write interface copy that earns trust, reduces friction, and drives action. Ever
 - A platform name (Deriv MT5, Deriv cTrader, Deriv GO, SmartTrader, etc.)
 - A proprietary market (Derived indices, Synthetic indices, Crash/Boom indices, etc.)
 - A Deriv Tokens term (Creator, Buyer, NAV, High-water mark, Minting, etc.)
+- A Deriv P2P term (seller, buyer, ad, hidden ads, P2P US dollar Wallet, etc.)
 
-The glossary covers Deriv's own terminology only. For third-party platforms Deriv references in its UI -- App Store, Google Play, HUAWEI AppGallery, and similar -- the rules live in this skill (see "App store names" under "Deriv terminology -- hard rules"). If a third-party name isn't covered there either, ask the brand team before writing.
+`References/product-glossary.md` is organised in three tiers:
 
-### Glossary structure
+1. **Curated entries** (Display name / Tooltip / UX copy notes) for terms in active use -- trade types, platform names, Deriv Tokens, Deriv P2P. This is the approved display name, tooltip definition, and UX copy notes for each. Using the wrong term -- or the right term with wrong capitalisation -- damages trust.
+2. **EU availability quick reference** for curated terms that are also in the master glossary.
+3. **Extended terminology** from the March 2026 master glossary, for coverage beyond what's been UX-curated yet.
 
-Each entry contains three fields:
-
-- **Topic** — the product area (e.g. "Trading focus", "Account management"). Use this to confirm the copy belongs in the right context.
-- **Definition** — the approved explanation of the term. Use this as the source of truth for tooltip copy and helper text. Paraphrase for the UI — do not copy the definition verbatim.
-- **EU availability** — whether the feature is available to EU-regulated clients. This is critical for UX copy (see below).
-
-Using the wrong term — or the right term with wrong capitalisation — damages trust.
-
-### EU availability: how to apply it in copy
-
-The glossary flags each term as **Available** or **Not available in EU**. Apply this as follows:
-
-| Scenario | What to do |
-|----------|-----------|
-| Writing copy for a feature marked "Not available in EU" | Do not expose this feature in EU-regulated flows. If you're unsure whether the screen is EU-specific, flag to the designer or compliance team before writing. |
-| A feature is available in EU but restricted in some non-EU markets | Use positive framing: "Available in selected countries" — never "Not available in your country." |
-| Copy must work across both EU and non-EU surfaces | Write for the more restricted version. Flag to the designer that a variant may be needed for non-EU. |
-| Tooltip or helper text for an EU-unavailable term appears in a shared codebase | The copy should be written but the component hidden for EU users — confirm with the engineer, don't omit the copy entirely. |
+If a term isn't in the curated section (tier 1), check tier 3, "Extended terminology," before assuming it isn't approved. For crypto and blockchain industry terms (not Deriv-specific), see `References/crypto-glossary.md`.
 
 ---
 
@@ -138,7 +124,7 @@ Mobile is the primary trading surface for most Deriv users. Write for mobile fir
 | Button label (primary) | 16-20 chars | 20-28 chars | Shorter is always better. 2-3 words ideal. |
 | Button label (secondary) | 12-18 chars | 18-24 chars | |
 | Toast / snackbar | 40-60 chars | 60-80 chars | One line only. No punctuation if it's a single sentence fragment. |
-| Modal title | 25 chars | 25 chars | Hard cap — applies across mobile and desktop |
+| Modal title | 25 chars | 25 chars | Hard cap, same on mobile and desktop -- tightened from an earlier 25-50 char range after cross-checking against Himawan's copy of the guideline. If you're relying on the old range elsewhere, flag it for a sweep. |
 | Modal body | 80-120 chars | 120-200 chars | One sentence on mobile. Two max on desktop. |
 | Tooltip | 60-80 chars | 80-120 chars | One sentence. Never wrap to more than 2 lines on mobile. |
 | Form field label | 15-25 chars | 20-35 chars | |
@@ -205,12 +191,7 @@ The button label is the contract between the product and the trader. It answers:
 
 \* "Get it on HUAWEI AppGallery" exceeds the 20-char mobile primary button limit. Use it on desktop or where the button can wrap to two lines. For tight mobile slots, use a generic "Download Deriv GO" CTA above the three store badges instead.
 
-**Where the "the" rule does and doesn't apply in CTAs:**
-
-- ✅ Body copy and self-written CTAs: "Available on the App Store, Google Play, and HUAWEI AppGallery." (62 chars -- body copy, not a button)
-- ✅ Self-written button: "Get it on the App Store"
-- ❌ Self-written button without "the": "Get it on App Store"
-- ⚠️ Official store badges: use the locked-up badge text as supplied -- do not edit. The "the" rule applies only to copy you write.
+**Where the "the" rule does and doesn't apply in CTAs** -- see "App store names" under "Deriv terminology -- hard rules" below for the full rule. Quick version: write "Get it on the App Store" yourself, but never edit an official store badge's locked-up text.
 
 ### Error messages
 
@@ -279,7 +260,7 @@ Tooltips translate Deriv's product terms into plain language. They're the bridge
 Modals interrupt the flow. The trader has to deal with this before they can do anything else. Earn that interruption.
 
 **Structure:**
-- **Title:** The decision being made. Not a question if it can be avoided. Max 25 chars.
+- **Title:** The decision being made. Not a question if it can be avoided. Max 35 chars on mobile.
 - **Body:** The consequence, once. One sentence. Max 120 chars on mobile.
 - **Primary button:** The action (specific verb). Never "Yes."
 - **Secondary button:** The exit. Never "No." "Cancel" is fine. "Keep [thing]" is better.
@@ -406,13 +387,9 @@ Modifiers like "real" and "demo" go before the full Deriv platform name, never i
 | real Deriv GO account | Deriv real GO account |
 | demo Deriv Bot account | Deriv demo Bot account |
 
-The modifier itself is lowercase ("real", "demo") -- it's a descriptor, not part of the product name. Capitalise only when it begins a sentence:
+The modifier itself is lowercase ("real", "demo") -- it's a descriptor, not part of the product name. Capitalise only when it begins a sentence: "Real Deriv cTrader account is available", not "Activate your Real Deriv cTrader account now."
 
-- ✅ "Real Deriv cTrader account is available"
-- ✅ "Activate your real Deriv cTrader account now"
-- ❌ "Activate your Real Deriv cTrader account now"
-
-This rule applies to all Deriv platforms: Deriv MT5, Deriv cTrader, Deriv GO, Deriv Bot, Deriv Trader, SmartTrader, Deriv Nakala, Deriv P2P.
+Note the one exception: the standalone "Deriv real account" (no platform name attached) keeps its own fixed word order per the glossary -- never "real Deriv account." This rule is specifically for when a platform name (Deriv MT5, Deriv cTrader, etc.) is involved.
 
 ### Deriv P2P -- role terminology
 
@@ -424,121 +401,73 @@ Deriv P2P is a peer-to-peer marketplace where users exchange Deriv funds for loc
 | Buyer | A user who responds to an ad to buy Deriv funds | buyer / buyers | -- |
 | Listing | The post a seller creates with their rate, limits, and payment methods | ad / ads (capital A when starting a sentence) | advertisement, listing, post |
 
-**Why "sellers" and not "advertisers":**
+**Why "sellers" and not "advertisers":** it pairs cleanly with "buyers", it's specific about what the person does, and it doesn't read as promotional -- Deriv P2P is a transactional marketplace, not a marketing surface.
 
-- **It pairs.** "Sellers" sits naturally opposite "buyers" -- the marketplace is built on this pairing. "Advertiser" has no clean opposite.
-- **It's specific.** "Advertiser" is vague -- in most contexts it implies someone running a marketing campaign. "Seller" tells the user exactly what the person does.
-- **It's not promotional.** "Advertiser" reads like marketing language. Deriv P2P is a transactional marketplace, not a promotional surface.
-
-**Roles are reversible.** The same user can be a seller on one transaction and a buyer on another. Don't write copy that assumes a user is permanently one or the other -- e.g. avoid "as a seller, you will..." in onboarding. Frame role-specific guidance around the action: "When you sell, ..." / "When you buy, ..."
-
-**On "ads":**
-
-- The term `ads` (and `Ads` at the start of a sentence) is the approved word for listings on Deriv P2P. The ban on "advertiser" does not extend to "ad" or "ads."
-- Capitalise as `Ads` only when it begins a sentence or is a navigation/tab label following sentence case rules. Inline, it's lowercase: "Browse ads," "your active ads."
-
-**Examples in context:**
+**Roles are reversible.** The same user can be a seller on one transaction and a buyer on another. Don't write copy that assumes a user is permanently one or the other -- avoid "as a seller, you will..." in onboarding. Frame guidance around the action: "When you sell, ..." / "When you buy, ..."
 
 | ❌ | ✅ |
 |----|-----|
 | See when advertisers were last online | See when sellers were last online |
-| Top-rated advertisers in your region | Top-rated sellers in your region |
 | You have 3 active advertisements | You have 3 active ads |
 | Become an advertiser on Deriv P2P | Post your first ad on Deriv P2P |
 | Advertiser rating: 4.8 | Seller rating: 4.8 |
-| Block this advertiser | Block this seller |
-
-> **Source note:** This subsection reflects guidance surfaced in the Deriv P2P workspace. If a Deriv P2P feature spec uses "advertiser" in upstream documentation (engineering tickets, API responses, designer files), translate to "seller" at the UI layer -- internal naming and user-facing copy don't have to match.
 
 ### Deriv P2P -- ad status terminology
 
-When a Deriv P2P user runs out of funds in their P2P US dollar Wallet, their sell ads stop appearing to buyers. Describing this state correctly matters: three different words have surfaced across engineering, product, and design — and only one is accurate from the user's POV.
-
-| Term | Meaning | Use in UX copy? |
-|------|---------|-----------------|
-| hidden | The ad still exists and is active in the system, but doesn't appear in the marketplace because the seller has no funds to back it | ✅ Yes — this is the approved term |
-| paused | Implies the seller intentionally stopped the ad, or that the ad object has been deactivated | ❌ No — wrong on both counts. The ad is still active; the user didn't pause anything |
-| excluded | Technically accurate but reads punitive, like the seller did something wrong | ❌ No — avoid in user-facing copy |
-| inactive | Suggests the ad has been deactivated or expired | ❌ No — the ad is still active; only its visibility changed |
-
-**Why "hidden" is correct:**
-
-- **It describes what the buyer sees.** The ad is gone from the marketplace surface. That's what "hidden" means to a user.
-- **It's reversible without ceremony.** When the seller tops up, the ad reappears. "Unhide" maps cleanly to that action; "unpause" or "re-include" don't.
-- **It doesn't imply fault.** "Excluded" sounds like a penalty. "Paused" implies user action. "Hidden" is neutral — it describes a state, not a judgement.
-- **Only sell ads are affected.** Buy ads stay visible regardless of P2P US dollar Wallet balance. Always specify "sell ads" when writing about this state — not "your ads."
-
-**Approved patterns:**
+When a seller runs out of funds in their P2P US dollar Wallet, their sell ads stop appearing to buyers. Use **hidden** for this state -- never "paused", "excluded", or "inactive." The ad still exists and is active; only its visibility changed, and it wasn't the seller's choice or fault.
 
 | Context | ✅ Correct | ❌ Avoid |
 |---------|-----------|---------|
 | Zero-balance banner body | Your sell ads are hidden from the marketplace when your P2P US dollar Wallet balance is zero. | Your ads pause automatically when your balance runs out. |
 | Restoration message | Transfer funds to your P2P US dollar Wallet to make your sell ads visible again. | Top up to reactivate your ads. |
 | Status label on the ad itself | Hidden | Paused / Inactive / Excluded |
-| Notification | Your sell ads are hidden. Top up your P2P US dollar Wallet to bring them back. | Your ads have been paused due to low balance. |
 
-**Edge case — manually paused ads:** If a seller deliberately turns off an ad themselves (a feature that may exist separately), "paused" is the correct word for *that* state. The distinction is who did it: the system hiding ads for zero balance is "hidden"; the user turning off their own ad is "paused." Don't merge the two.
+Only sell ads are affected by this -- buy ads stay visible regardless of balance. Always specify "sell ads," not "your ads." Edge case: if a seller manually turns off their own ad (a separate feature), "paused" is the correct word for *that* state -- the distinction is who did it.
 
 ### Deriv P2P -- wallet and balance terminology
 
-The wallet that holds funds used for P2P trades is the **P2P US dollar Wallet**. This is the current term and replaces the earlier "P2P Wallet," which is now insufficiently specific -- the same currency can exist in both the main Wallet and the P2P Wallet, so naming the currency disambiguates which one is meant. "P2P Wallet" also replaced the older V1 term "P2P balance," which is retired.
+The wallet holding funds for P2P trades is the **P2P US dollar Wallet** -- not "P2P Wallet" (now ambiguous, since the same currency can exist in both the main Wallet and the P2P Wallet) and not the older, retired "P2P balance."
 
 | ✅ Correct | ❌ Never |
 |-----------|---------|
-| P2P US dollar Wallet | P2P Wallet, P2P US Dollar Wallet, P2P us dollar wallet, P2P balance |
-| P2P US dollar Wallet balance | P2P Wallet balance, P2P balance |
-| No balance in your P2P US dollar Wallet | No P2P balance |
-| Transfer funds to your P2P US dollar Wallet | Top up your P2P balance |
+| P2P US dollar Wallet | P2P Wallet, P2P US Dollar Wallet, P2P balance |
+| your P2P US dollar Wallet balance | your P2P US dollar Wallet Balance, P2P balance |
 
-**Rules:**
-
-- "Wallet" is a Deriv product name — capitalise it even mid-sentence. This sits alongside the other capitalisation exceptions: platform names, app store names, and Derived Indices category names.
-- The currency name stays lowercase, per the general currency rule: "US dollar," not "US Dollar." So the full term reads "P2P US dollar Wallet" -- capital P2P, lowercase currency, capital Wallet.
-- "Balance" is a common noun — lowercase. So: "your P2P US dollar Wallet balance" (not "your P2P US dollar Wallet Balance").
-- If an older surface still says "P2P Wallet" or "P2P balance," flag it for migration. Don't perpetuate either retired term.
+"Wallet" is a Deriv product name and keeps its capital W even mid-sentence, alongside the other capitalisation exceptions (platform names, app store names, Derived Indices category names). The currency stays lowercase ("US dollar," not "US Dollar"), and "balance" is a common noun, so lowercase.
 
 ### App store names -- exact capitalisation and article use
 
-These appear in download CTAs, footers, onboarding, and "get the app" prompts. Both the spelling and the article ("the") are part of the rule.
-
-#### Spelling and capitalisation
+These appear in download CTAs, footers, onboarding, and "get the app" prompts.
 
 | ✅ Correct | ❌ Never |
 |-----------|---------|
-| App Store | Apple Store, App store, Appstore, App Storage, iOS Store |
-| Google Play | Play Store, Google Store, Google play, GooglePlay, Google Play Store |
-| HUAWEI AppGallery | Huawei App Gallery, Huawei AppGallery, HUAWEI App Gallery, AppGallery alone |
+| App Store | Apple Store, App store, Appstore, iOS Store |
+| Google Play | Play Store, Google Store, Google play, Google Play Store |
+| HUAWEI AppGallery | Huawei App Gallery, Huawei AppGallery, HUAWEI App Gallery |
 
-"App Store" and "Google Play" use Title Case as proper nouns -- this is one of the few exceptions to the sentence case rule. "HUAWEI" is always all caps; "AppGallery" is one word with a capital A and capital G.
+"App Store" and "Google Play" use Title Case as proper nouns -- one of the few exceptions to the sentence case rule. "HUAWEI" is always all caps; "AppGallery" is one word.
 
-#### The "the" rule
-
-Always use **"the"** before an app store name. When two or more app store names appear in the same list, "the" goes on the first name only -- not repeated before each one.
+**Always use "the" before an app store name.** When two or more appear in a list, "the" goes on the first name only -- not repeated before each one.
 
 | Scenario | ✅ Correct | ❌ Never |
 |----------|-----------|---------|
-| Single store -- App Store | Download from the App Store. | Download from App Store. |
-| Single store -- Google Play | Get it on the Google Play. | Get it on Google Play. |
-| Single store -- AppGallery | Find it on the HUAWEI AppGallery. | Find it on HUAWEI AppGallery. |
-| Two stores | Available on the App Store and Google Play. | Available on the App Store and the Google Play. |
+| Single store | Download from the App Store. | Download from App Store. |
 | Three stores | Available on the App Store, Google Play, and HUAWEI AppGallery. | Available on App Store, Google Play, and HUAWEI AppGallery. |
-| Three stores -- repeated "the" | Available on the App Store, Google Play, and HUAWEI AppGallery. | Available on the App Store, the Google Play, and the HUAWEI AppGallery. |
-| Mid-sentence | Find Deriv GO on the App Store. | Find Deriv GO on App Store. |
+| Repeated "the" | Available on the App Store, Google Play, and HUAWEI AppGallery. | Available on the App Store, the Google Play, and the HUAWEI AppGallery. |
 
-#### Exception: badge CTAs and lockups
+**Exception -- badge CTAs:** official download badges are graphic lockups, not editable copy. Use them exactly as supplied by Apple, Google, and Huawei. The "the" rule and full names apply to body copy and buttons you write yourself, not to badge artwork. If a character limit forces a cut, switch to a generic CTA ("Download Deriv GO") rather than dropping "the" or shortening the store name.
 
-Official download badges are graphic lockups -- not editable copy. Use them as supplied by Apple, Google, and Huawei without modification. Two things to know:
+### Currency names -- lowercase
 
-- The "the" rule applies to body copy, button labels you write yourself, and surrounding text -- not to the locked-up badge artwork.
-- Some official badges use forms that wouldn't pass this skill's rules in body copy (for example, Huawei's badge reads "Explore it on AppGallery" without "HUAWEI" and without "the"). That's fine *inside the badge* because it's brand artwork. The moment you write the same phrase in body copy or a custom button, the standard rules apply: "HUAWEI AppGallery" with "the."
+Currency names are common nouns. Lowercase the currency word even when the country/region prefix is capitalised.
 
-#### Edge cases
+| ✅ Correct | ❌ Incorrect |
+|-----------|-------------|
+| US dollar | US Dollar |
+| euro | Euro |
+| Japanese yen | Japanese Yen |
 
-- **Possessives:** Avoid "the App Store's policy" in UI copy -- rephrase as "App Store policy" or "policy on the App Store." Possessives of proper nouns with "the" read awkwardly.
-- **Starting a sentence:** "The" stays lowercase mid-sentence and is capitalised only when it begins a sentence: "The App Store version is updated weekly."
-- **Headings and button labels:** The "the" rule still applies. ✅ "Get it on the App Store" -- ❌ "Get it on App Store." If character limits force a cut, switch to a generic CTA (e.g. "Download Deriv GO") rather than dropping "the" or shortening the store name -- both are part of the brand rule.
-- **Plural / generic reference:** When referring to app stores generically (not by name), lowercase and no special article rule: "available in major app stores." The rule only applies when naming a specific store.
-- **Spacing in lists:** Use a single space after each comma. Never two spaces, never a missing space. ✅ "the App Store, Google Play, and HUAWEI AppGallery" -- ❌ "the App Store,  Google Play, and HUAWEI AppGallery" or "the App Store ,Google Play, and HUAWEI AppGallery."
+For tight spaces, use the ISO code instead (USD, EUR, GBP, JPY, AUD) in caps. When a currency name precedes "Wallet," the currency stays lowercase and only "Wallet" capitalises: "US dollar Wallet," not "US Dollar Wallet" or "US dollar wallet."
 
 ### Trade type capitalisation
 
@@ -549,19 +478,17 @@ Official download badges are graphic lockups -- not editable copy. Use them as s
 - Vanilla options, Lookbacks options -- lowercase "options"
 - Rise/Fall, Higher/Lower, Ends Between, Stays Between -- as shown
 
-### Derived Indices -- use the right level
+### Derived indices -- use the right level
 
 | Use | When |
 |-----|------|
-| Derived Indices | Umbrella term for the whole category |
-| Synthetic Indices | The simulated subset (Volatility, Crash/Boom, Jump, etc.) |
-| Basket Indices | Currency basket products |
-| Crypto Indices | Cryptocurrency-based indices |
+| Derived indices | Umbrella term for the whole category |
+| Synthetic indices | The simulated subset (Volatility, Crash/Boom, Jump, etc.) |
+| Basket indices | Currency basket products |
+| Crypto indices | Cryptocurrency-based indices |
 | Derived FX | Simulated forex products |
 
-Never use "Synthetic Indices" as a synonym for "Derived Indices." They're a subset, not the whole.
-
-Note: These category names use Title Case as proper nouns -- one of the exceptions to the sentence case rule, alongside platform names and app store names.
+Never use "Synthetic indices" as a synonym for "Derived indices." They're a subset, not the whole.
 
 ### British English -- apply consistently
 
@@ -576,41 +503,15 @@ Note: These category names use Title Case as proper nouns -- one of the exceptio
 | practise (verb) | practice (verb) |
 | realise | realize |
 
-### Currency names -- lowercase
-
-Currency names are common nouns, not proper nouns. Lowercase the currency word even when the country/region prefix is capitalised or abbreviated.
-
-| ✅ Correct | ❌ Incorrect |
-|-----------|-------------|
-| US dollar | US Dollar |
-| Australian dollar | Australian Dollar |
-| euro | Euro |
-| pound sterling | Pound Sterling |
-| Japanese yen | Japanese Yen |
-
-This applies to body copy, labels, tooltips, and modal text. For tight spaces, use the ISO code instead (USD, EUR, GBP, JPY, AUD) -- keep the code as-is, in caps ("USD," never "USd").
-
-**Currency name + "Wallet":** "Wallet" is a Deriv product name and always keeps its capital W, even when it follows a lowercase currency name. The currency stays lowercase; only "Wallet" capitalises.
-
-| ✅ Correct | ❌ Incorrect |
-|-----------|-------------|
-| US dollar Wallet | US Dollar Wallet, US dollar wallet |
-| Australian dollar Wallet | Australian Dollar wallet |
-| euro Wallet | Euro Wallet, euro wallet |
-
 ### Sentence case -- everywhere
 
 Buttons, headings, labels, navigation, tab names, modal titles -- all sentence case. No Title Case except proper nouns and product/platform names.
 
-Proper nouns include Deriv product/platform names ("Deriv MT5", "Deriv GO"), Deriv indices category names ("Derived Indices", "Synthetic Indices", "Basket Indices", "Crypto Indices"), and third-party platform names ("App Store", "Google Play", "HUAWEI AppGallery"). These keep their official capitalisation even mid-sentence.
-
 ✅ "Your account settings"
 ✅ "Deposit funds"
 ✅ "Trade on Deriv MT5"
-✅ "Get it on the App Store"
 ❌ "Your Account Settings"
 ❌ "Deposit Funds"
-❌ "Get it on the app store"
 
 ---
 
@@ -633,11 +534,11 @@ Run this before any copy ships:
 **Deriv rules**
 - [ ] Does it avoid the banned words (invest, win, click here)?
 - [ ] Are platform and product names capitalised correctly?
-- [ ] If "real" or "demo" appears with a platform name: is the modifier placed before the full platform name (e.g. "real Deriv MT5 account"), not splitting it?
-- [ ] If app store names appear: is each one spelled correctly (App Store, Google Play, HUAWEI AppGallery) and is "the" used before the first one only?
+- [ ] If "real" or "demo" appears with a platform name: is the modifier placed before the full platform name ("real Deriv MT5 account"), not splitting it?
+- [ ] If app store names appear: is each one spelled correctly and is "the" used before the first one only?
 - [ ] If the copy is for Deriv P2P: does it use "seller / buyer" (never "advertiser") and "ads" (never "advertisements")?
 - [ ] If the copy is for Deriv P2P and describes ads disappearing from the marketplace: does it use "hidden" (never "paused", "excluded", or "inactive")?
-- [ ] If the copy is for Deriv P2P and references the wallet: is it "P2P US dollar Wallet" (lowercase currency, capital Wallet) and never "P2P Wallet" or "P2P balance"?
+- [ ] If the copy is for Deriv P2P and references the wallet: is it "P2P US dollar Wallet" and never "P2P Wallet" or "P2P balance"?
 - [ ] Is it sentence case?
 - [ ] Is it British English?
 - [ ] Are currency names lowercase (US dollar, euro, yen) unless using the ISO code?
@@ -674,6 +575,8 @@ Use a table with columns: Screen / Element / Copy / Char count / Notes
 
 ## References
 
-`References/product-glossary.md` — Deriv-approved definitions for all trade types, features, platforms, and markets. Last updated May 2026. Each entry includes: **Topic** (product area), **Definition** (source of truth for tooltip and helper text copy), and **EU availability** (Available / Not available in EU — apply as described in the "Before you write" section above). **Read this before writing copy that involves any product term.**
+`References/product-glossary.md` -- Deriv-approved terminology in three tiers: curated display names/tooltips/UX copy notes for all trade types, features, platforms, and markets; an EU availability quick reference; and extended terminology pulled from the March 2026 master glossary. See "Before you write: check the glossary" above for how the tiers work. **Read this before writing copy that involves any product term.**
+
+`References/crypto-glossary.md` -- industry reference for crypto and blockchain terminology (Binance Academy, paraphrased). Not Deriv-approved product terms -- use for background understanding when writing about crypto markets or Deriv P2P, not as a source to copy into the UI.
 
 For formatting rules (dates, currency, abbreviations) and content-type constraints (email subject lines, push notification limits): refer to the Deriv Content Style skill.
