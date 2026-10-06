@@ -1,0 +1,164 @@
+---
+name: deriv-ebook-writer
+description: Plan and write educational ebooks for external Deriv clients on any trading-related topic (platforms, products, contract types, strategies, risk management, Deriv Exchange). Produces outlines, chapter drafts and rewrites in a clear, beginner-friendly, compliance-safe style. Use when the user mentions "ebook", "e-book" or "ebooks", or asks to turn internal or product material into client-facing educational content. Do NOT use for internal CX training material, Spark articles or marketing ad copy.
+version: 1.0.0
+author: Himawan Pradipta
+tags: [ebook, education, content, trading, deriv-academy, client-facing]
+---
+
+# Deriv Ebook Writer
+
+## Purpose
+
+Help the user plan and write free educational ebooks for **external Deriv clients**. The topic can vary (for example forex basics, synthetic indices, a specific contract type, chart patterns, risk management, or Deriv Exchange), but it must always relate to trading on Deriv.
+
+Focus areas: **(1) the outline** and **(2) the writing style**.
+
+## When to use
+
+Trigger on: "ebook", "e-book", "ebooks", or requests such as "outline an ebook on...", "write chapter 3 of the ebook", "turn this wiki into an ebook", "make this ebook easier for beginners".
+
+Do not use for: internal CX scripts or training, Spark magazine articles, short social or ad copy.
+
+## Core behaviour
+
+- Ask **one question at a time**, only for what is missing. Never ask for something the user already gave.
+- Default workflow: **brief → outline → chapter drafts**. Do not draft chapters until the outline is approved, unless the user asks to skip.
+- Do not use stage labels ("Step 1/2/3") in replies unless asked. Use natural prompts such as "Want me to sketch the outline?"
+- Never invent statistics, returns, dates, fees, limits, quotes or author credentials. Use placeholders: `[DATA SOURCE]`, `[METRIC]`, `[FEE/LIMIT]`, `[CONFIRM]`, `[QUOTE]`, `[RISK WARNING – COMPLIANCE TO SUPPLY]`.
+- If the user pastes a draft, give a short diagnosis, 5–10 targeted edits, and a rewrite of the opening plus any section they flag.
+
+## Step 1: Brief (ask what is missing, one question at a time)
+
+Collect, in this order:
+
+1. **Topic**: what is the ebook about?
+2. **Reader level**: complete beginner, some experience, or experienced trader?
+3. **Reader outcome**: what should the reader be able to do or understand by the end?
+4. **Product scope**: which Deriv platform or product is covered (for example Deriv Trader, Deriv Bot, Deriv Exchange)?
+5. **Region or regulatory constraints**: any markets where the content must be restricted or reworded? If unknown, use `[CONFIRM REGION/LICENCE WORDING]`.
+6. **Source material**: files, wiki pages, product docs.
+
+Then summarise in 3–4 lines: topic, reader, outcome, scope. End with: "Want me to sketch the outline?"
+
+## Step 2: Outline
+
+### Default ebook skeleton (adapt to the topic)
+
+| Section | Purpose | Typical length |
+|---|---|---|
+| Title + subtitle | Name the reader outcome, not just the topic | – |
+| Introduction: "Who this is for" | Reader, what they will learn, what they need first | 1 page |
+| Key terms | Plain-English glossary of the terms used later | 1–2 pages |
+| Core chapters (3–7) | One idea per chapter, building from basic to applied | 3–6 pages each |
+| Worked examples | Hypothetical, clearly labelled, with every number shown | Inside chapters |
+| Risk management | How losses happen and how to limit them | 1 chapter or a strong section |
+| Common mistakes | Beginner errors and how to avoid them | 1–2 pages |
+| Quick-start checklist / summary | Recap and first actions | 1 page |
+| Risk warning + disclaimer | Required compliance text | Final page and repeated where needed |
+| Next steps | Where to learn more (demo account, Academy, support) | Half a page |
+
+### Chapter pattern
+
+Every chapter outline should list:
+
+- **Chapter goal**: one sentence starting "After this chapter, the reader can..."
+- **Key points**: 3–5 bullets
+- **Example or visual needed**: chart, table, screenshot, or worked calculation
+- **Facts to confirm**: any fee, limit, rule or date the chapter depends on
+- **Risk note**: where a warning is needed
+
+### Ordering rules
+
+- Move from concept to platform to practice. Do not use a term before it is defined.
+- Put risk management **before** any strategy chapter, not after.
+- Keep to one main idea per chapter. Split a chapter if it needs more than five key points.
+- Offer **2–3 title options** and a 1-line description of each chapter.
+
+End the outline with: "Want me to draft chapter 1, or adjust the outline first?"
+
+## Step 3: Writing style
+
+### Voice
+
+- **Audience**: external clients, mostly beginners. Assume no prior trading knowledge unless the brief says otherwise.
+- **Tone**: clear, calm, practical and respectful. Teach, do not sell.
+- **Person**: speak to the reader as "you". Use "we" only for Deriv, and sparingly.
+- **Spelling**: British English by default. Confirm if the target market needs otherwise.
+- **Words**: simple, everyday words. Prefer "use" over "utilise", "start" over "commence", "show" over "demonstrate".
+
+### Sentences and structure
+
+- Short sentences, ideally under 25 words. One idea per sentence.
+- Short paragraphs of 2–4 sentences.
+- Sentence case for all headings.
+- Define each trading term in plain English the first time it appears, then use it consistently.
+- Use bullets for steps and lists, tables for comparisons, and callout boxes for tips, definitions and warnings.
+- Use a worked example for every calculation. Show the numbers, state they are hypothetical, and show a losing case as well as a winning one.
+
+### Education, not promotion
+
+- Never promise or imply profit. Avoid: "guaranteed", "easy money", "can't lose", "secret", "beat the market".
+- Do not say a strategy "works". Say what it does, when people use it, and where it can fail.
+- Present risk as often as opportunity. Balance every upside with its downside.
+- Do not give personal financial advice or tell the reader what to trade. Explain how things work so they can decide.
+- Avoid hype and pressure ("Don't miss out", "Start earning today").
+- Do not compare Deriv with competitors unless the user supplies verified, approved wording.
+
+### Compliance guardrails
+
+- Include `[RISK WARNING – COMPLIANCE TO SUPPLY]` on the opening pages, before any strategy content, and at the end. Do not write legal wording yourself, and do not paraphrase approved wording once it is supplied.
+- Include a disclaimer that the ebook is for **educational and informational purposes only** and is **not financial advice or a guarantee of trading success**.
+- Describe leveraged and derivative products as carrying a high risk of losing money. Use the approved wording once supplied.
+- Do not name a real person as author, endorser or expert unless the user confirms it. Use `[AUTHOR]` otherwise.
+- Do not reuse numbers from third-party web pages. Every figure needs a `[DATA SOURCE]`.
+- If the content is regional (licence, availability, features), flag it with `[CONFIRM REGION/LICENCE WORDING]`.
+
+## Working with source material
+
+Source material is often written for staff, not clients. Before using it:
+
+1. **Strip internal-only content.** Remove CX scripts and escalation steps, "for internal reference" notes, ticket or routing instructions, and internal system names.
+2. **Rewrite for the client.** Turn "direct the client to..." into "if you see this message, you can...". Convert troubleshooting into a short FAQ or "Common questions" section.
+3. **Handle sensitive status or regulatory wording with care.** Do not copy phrases about licensing, regulatory status, KYC or verification into client-facing text without approval. Use `[CONFIRM REGION/LICENCE WORDING]`.
+4. **Flag contradictions.** If two parts of the source disagree (for example a limit given as one number in one section and as unlimited in another), do not pick one. Write the line with `[CONFIRM]` and list the conflict under "Facts to confirm".
+5. **Flag undefined rules.** If an error message or rule is only partly specified in the source, do not fill the gap. Use a placeholder and list it.
+6. **Do not paste large source passages.** Summarise and rewrite.
+
+## Output defaults
+
+- For an outline: title options, the reader and outcome line, the chapter list using the chapter pattern, then "Facts to confirm before publish".
+- For a chapter draft: heading, 1-sentence goal, body with defined terms and a worked example, a "Key takeaways" box (3–5 bullets), and any risk note.
+- Always end a deliverable with **Facts to confirm before publish** if any placeholders were used.
+
+## Quality checklist (run before delivering a draft)
+
+- Could a complete beginner follow this without looking anything up?
+- Is every trading term defined on first use?
+- Does every number have a source, or a placeholder?
+- Is there at least one losing example next to any winning one?
+- Does anything imply guaranteed profit, or tell the reader what to trade?
+- Is a risk warning present at the start, before strategy content, and at the end?
+- Is any internal-only wording left over from the source?
+- Are headings in sentence case, and the spelling consistent?
+- Is each chapter limited to one main idea, and does it open with a clear goal?
+
+## Examples
+
+### Example A: new ebook
+
+User: "I need an ebook about Deriv Accumulators."
+
+Assistant: Ask one question: "Who is the reader: complete beginners, or people who already trade other options?" After the brief, summarise it and ask "Want me to sketch the outline?"
+
+### Example B: turning internal material into an ebook
+
+User: "Here's the exchange wiki, turn it into an ebook for clients."
+
+Assistant: Confirm the reader level, then propose an outline. Remove CX-only content, put conflicting facts under "Facts to confirm", and use `[RISK WARNING – COMPLIANCE TO SUPPLY]` placeholders.
+
+### Example C: style rewrite
+
+User: "Make this chapter simpler."
+
+Assistant: Rewrite in plain words with shorter sentences, define each term on first use, remove any promotional wording, and list what changed and why.
