@@ -19,6 +19,7 @@ Write interface copy that earns trust, reduces friction, and drives action. Ever
 - A proprietary market (Derived indices, Synthetic indices, Crash/Boom indices, etc.)
 - A Deriv Tokens term (Creator, Buyer, NAV, High-water mark, Minting, etc.)
 - A Deriv P2P term (seller, buyer, ad, hidden ads, P2P US dollar Wallet, etc.)
+- A Deriv Exchange term (Deriv Exchange, Deriv Wallet, Spot trading, Futures trading, trading pair, order book, deposit, withdrawal, transfer, etc.)
 
 `References/product-glossary.md` is organised in three tiers:
 
@@ -26,7 +27,7 @@ Write interface copy that earns trust, reduces friction, and drives action. Ever
 2. **EU availability quick reference** for curated terms that are also in the master glossary.
 3. **Extended terminology** from the March 2026 master glossary, for coverage beyond what's been UX-curated yet.
 
-If a term isn't in the curated section (tier 1), check tier 3, "Extended terminology," before assuming it isn't approved. For crypto and blockchain industry terms (not Deriv-specific), see `References/crypto-glossary.md`.
+If a term isn't in the curated section (tier 1), check tier 3, "Extended terminology," before assuming it isn't approved. For crypto and blockchain industry terms (not Deriv-specific), see `References/crypto-glossary.md`. For Deriv Exchange copy, use the terminology and rules in the "Deriv Exchange terminology" section below alongside the crypto glossary.
 
 ---
 
@@ -342,6 +343,191 @@ One action per screen. Tell traders what to do -- not what the process is.
 
 ---
 
+## Deriv Exchange terminology
+
+Deriv Exchange terminology should be consistent with the product's current scope and with the existing Deriv UX-writing rules. When writing for Deriv Exchange, use the exact product names below and explain technical terms in plain language when the audience may not know them.
+
+### Product and wallet terminology
+
+| Preferred | Avoid / note |
+|-----------|--------------|
+| **Deriv Exchange** | Use the full product name on first reference. "Exchange" is acceptable when the context is already clear. |
+| **Deriv Wallet** | "Wallet" may be used when the context is clear. Always capitalise **Wallet** when it is part of the Deriv product name. |
+| **Crypto wallet** | Correct generic term. Keep lowercase unless it begins a sentence. |
+| **External wallet** | Correct term for a wallet outside Deriv. |
+| **Exchange account** | Use for the user's account within Deriv Exchange when the distinction from the wider Deriv account matters. |
+| **Deriv account** | Use for the user's overall Deriv account and login. |
+| **Cashier / Deriv cashier** | Use for the experience that handles deposits, withdrawals and transfers. |
+| **Single Deriv login** | Preferred user-facing description. Avoid exposing technical "SSO" language unless needed. |
+
+Use **Deriv Wallet** in every phrase, including:
+
+- Transfer to **Deriv Wallet**
+- Transfer from **Deriv Wallet**
+- Your **Deriv Wallet** balance
+- Move funds to your **Deriv Wallet**
+
+Do not write "Deriv wallet". When referring to the product and its balance, use **Deriv Wallet balance**.
+
+### Crypto and asset terminology
+
+Use these terms consistently:
+
+- cryptocurrency / crypto
+- coin
+- token
+- crypto pair / trading pair
+- base asset
+- quote asset
+- USDT
+- USDT-quoted pair
+- USDT-margined
+- network
+- on-chain
+- crypto deposit
+- crypto withdrawal
+- crypto balance
+- external wallet
+- underlying asset
+
+Do not add specialised crypto terms that are not established by the relevant Deriv Exchange product documentation. If a term is technically accurate but unfamiliar to the audience, define it in plain language at first use.
+
+### Spot trading terminology
+
+Preferred terms include:
+
+- **Spot trading**
+- **Spot market**
+- **Spot market order**
+- **Buy / buying crypto**
+- **Sell / selling crypto**
+- **Market order**
+- **Trading pair**
+- **Order**
+- **Trade / trading**
+- **Immediate delivery**
+
+When explaining spot trading to users, say what happens in simple terms. For example: "Spot trading lets you buy or sell crypto for immediate delivery. When you buy a coin, you own it."
+
+### Futures terminology
+
+Preferred terms include:
+
+- **Futures trading**
+- **Futures**
+- **Perpetual futures**
+- **USDT-margined perpetual futures**
+- **Futures contract**
+- **Leverage / leveraged**
+- **Position**
+- **Long / short**
+- **Price direction**
+- **Underlying asset**
+
+Do not use "futures" as a vague synonym for all crypto trading when the copy specifically refers to the futures product. Do not introduce terms such as liquidation, maintenance margin, funding rate or mark price unless they are supported by the relevant product documentation.
+
+### Trading and order terminology
+
+Use:
+
+- trade
+- trading
+- trading pair
+- order
+- market order
+- spot market order
+- buy order
+- sell order
+- order book
+- market data
+- real-time pricing
+- execution
+- fee
+- commission
+
+Use the simplest term that accurately describes the user's action. If a technical term is necessary, explain it rather than assuming the user knows it.
+
+### Exchange infrastructure terminology — internal terms
+
+The following terms may be useful for internal product, engineering, compliance or UX discussions, but they should not normally appear unexplained in external-facing copy:
+
+- trading engine
+- order book
+- market data
+- custody
+- MPC custody
+- multi-party computation
+- cashier
+- compliance layer
+- back office
+- exchange engine
+- exchange infrastructure
+- liquidity
+- liquidity sourcing
+- Liquidity-as-a-Service
+- ChainUp
+- Bitwind Liquidity-as-a-Service
+
+When an internal technical term must appear in external UX copy, keep the wording simple or provide a short dictionary-style definition. For example:
+
+> **MPC custody** — A mechanism that splits the keys controlling your funds across multiple parties, so no single party can move the funds on its own.
+
+Do not expose partner or infrastructure terminology simply because it is technically accurate. External users need to understand what the product does, not how the underlying system is implemented.
+
+### Compliance and verification terminology
+
+These terms may be used where relevant:
+
+- identity verification
+- KYC
+- transaction monitoring
+- risk screening
+- compliance
+- compliance layer
+- licence
+- regulated / non-regulated
+- VASP (Virtual Asset Service Provider)
+- launch jurisdiction
+
+For external copy, explain technical or regulatory terms when needed. For example:
+
+> **KYC** — Identity checks used to verify who you are.
+
+Do not improvise legal, licensing or regulatory wording. If the exact customer-facing wording is not approved, flag it for confirmation rather than rewriting it from memory.
+
+### Trading risk and financial terminology
+
+Use these terms accurately and consistently:
+
+- risk
+- leverage
+- leveraged position
+- position
+- margin
+- profit / loss
+- potential gains / losses
+- underlying asset
+- price movement
+- execution
+
+When explaining risk, use factual and balanced language. Do not imply that leverage, futures or any trading method guarantees returns. If a technical term affects the user's financial decision, explain what it means and why it matters rather than leaving it as unexplained jargon.
+
+### Future Exchange terminology — internal note
+
+The following are roadmap concepts from the current Deriv Exchange project context. Treat them as internal reference only unless the relevant product is officially launched and its UX terminology has been approved:
+
+- Deriv Strategy Tokens
+- strategy tokens
+- account tokenisation
+- creator wizard
+- investor marketplace
+- native Deriv coin
+- staking utility
+
+Do not write external UI copy that implies these products or features are currently available unless current product documentation confirms they are.
+
+---
+
 ## Deriv terminology -- hard rules
 
 ### Banned words
@@ -533,6 +719,8 @@ Run this before any copy ships:
 
 **Deriv rules**
 - [ ] Does it avoid the banned words (invest, win, click here)?
+- [ ] If it is Deriv Exchange copy, are product terms such as **Deriv Exchange**, **Deriv Wallet**, **crypto wallet**, **external wallet**, **Spot trading**, and **Futures trading** used consistently?
+- [ ] If a technical Exchange term is used externally, is it explained in plain language where needed?
 - [ ] Are platform and product names capitalised correctly?
 - [ ] If "real" or "demo" appears with a platform name: is the modifier placed before the full platform name ("real Deriv MT5 account"), not splitting it?
 - [ ] If app store names appear: is each one spelled correctly and is "the" used before the first one only?
@@ -577,6 +765,6 @@ Use a table with columns: Screen / Element / Copy / Char count / Notes
 
 `References/product-glossary.md` -- Deriv-approved terminology in three tiers: curated display names/tooltips/UX copy notes for all trade types, features, platforms, and markets; an EU availability quick reference; and extended terminology pulled from the March 2026 master glossary. See "Before you write: check the glossary" above for how the tiers work. **Read this before writing copy that involves any product term.**
 
-`References/crypto-glossary.md` -- industry reference for crypto and blockchain terminology (Binance Academy, paraphrased). Not Deriv-approved product terms -- use for background understanding when writing about crypto markets or Deriv P2P, not as a source to copy into the UI.
+`References/crypto-glossary.md` -- industry reference for crypto and blockchain terminology (Binance Academy, paraphrased). Not Deriv-approved product terms -- use for background understanding when writing about crypto markets or Deriv P2P, not as a source to copy into the UI. For Deriv Exchange, combine this background reference with the product-specific terminology and rules in this skill.
 
 For formatting rules (dates, currency, abbreviations) and content-type constraints (email subject lines, push notification limits): refer to the Deriv Content Style skill.
