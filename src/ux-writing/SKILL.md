@@ -16,17 +16,17 @@ Write interface copy that earns trust, reduces friction, and drives action. Ever
 - A trade type (CFD, Accumulator options, Multipliers, Digital options, Vanilla options, etc.)
 - A Deriv-specific feature (Deal cancellation, Growth rate, Stop loss, Indicative price, etc.)
 - A platform name (Deriv MT5, Deriv cTrader, Deriv GO, SmartTrader, etc.)
-- A proprietary market (Derived indices, Synthetic indices, Crash/Boom indices, etc.)
-- A Deriv Tokens term (Creator, Buyer, NAV, High-water mark, Minting, etc.)
+- A proprietary market (Derived Indices, Synthetic Indices, Crash/Boom Indices, etc.)
 - A Deriv P2P term (seller, buyer, ad, hidden ads, P2P US dollar Wallet, etc.)
+- A Deriv Exchange term (Deriv Exchange, Deriv Wallet, Spot trading, Futures trading, trading pair, order book, deposit, withdrawal, transfer, etc.)
 
 `References/product-glossary.md` is organised in three tiers:
 
-1. **Curated entries** (Display name / Tooltip / UX copy notes) for terms in active use -- trade types, platform names, Deriv Tokens, Deriv P2P. This is the approved display name, tooltip definition, and UX copy notes for each. Using the wrong term -- or the right term with wrong capitalisation -- damages trust.
+1. **Curated entries** (Display name / Tooltip / UX copy notes) for terms in active use -- trade types, platform names, and Deriv P2P. This is the approved display name, tooltip definition, and UX copy notes for each. Using the wrong term -- or the right term with wrong capitalisation -- damages trust.
 2. **EU availability quick reference** for curated terms that are also in the master glossary.
 3. **Extended terminology** from the March 2026 master glossary, for coverage beyond what's been UX-curated yet.
 
-If a term isn't in the curated section (tier 1), check tier 3, "Extended terminology," before assuming it isn't approved. For crypto and blockchain industry terms (not Deriv-specific), see `References/crypto-glossary.md`.
+If a term isn't in the curated section (tier 1), check tier 3, "Extended terminology," before assuming it isn't approved. For crypto and blockchain industry terms (not Deriv-specific), see `References/crypto-glossary.md`. For Deriv Exchange copy, use the terminology and rules in the "Deriv Exchange terminology" section below alongside the crypto glossary.
 
 ---
 
@@ -46,7 +46,7 @@ Deriv's voice is **friendly and direct, never condescending**. In UX copy specif
 |---------|------|---------|
 | Onboarding | Warm, encouraging | "Let's get your account set up. It takes about 3 minutes." |
 | Trade placement | Focused, efficient | "Place trade" not "Let's go!" |
-| Error / failure | Calm, helpful | "Something went wrong. Try again or contact support." |
+| Error / failure | Calm, specific, helpful | "No internet connection. Check your connection and try again." |
 | Financial loss / stop-out | Steady, factual | "Your position has been closed. The market reached your stop-out level." |
 | Success | Confirming, brief | "Withdrawal submitted. We'll process it within 1-3 business days." |
 | Empty state | Inviting, low pressure | "Your trades will appear here. Ready to start?" |
@@ -66,25 +66,25 @@ No preamble. No "please note that." No "in order to." The most important word go
 | We wanted to let you know that your deposit was successful | Deposit successful |
 | Kindly be informed that this feature is unavailable | This feature isn't available yet |
 
-### 2. Active voice
-Passive voice hides who does what. In a product, someone always acts.
+### 2. Use clear, direct wording
+Prefer active voice when it makes the actor and action clearer. Don't force "we" into a message when the product doesn't need to name an actor. Most importantly, name the specific action, issue, or condition. Avoid vague phrases such as "Something went wrong" or "We hit a snag".
 
-| ❌ | ✅ |
+| ❌ Vague or unnecessarily passive | ✅ Clear and specific |
 |----|-----|
 | Your account has been verified | We've verified your account |
-| An error was encountered | Something went wrong |
+| An error was encountered | Your internet connection was lost |
 | Your withdrawal has been submitted | We've submitted your withdrawal |
 | Deal cancellation has been activated | Deal cancellation is now active |
 
-### 3. Positive framing
-Tell traders what they *can* do, not what they *can't*. This is a hard rule for geographic restrictions.
+### 3. Use positive framing when it helps
+Focus on what traders can do when a useful alternative is available. However, negative wording is appropriate when it communicates a genuine restriction or blocking condition clearly. Don't rewrite a clear limitation into a positive statement that obscures the reason the user can't proceed.
 
-| ❌ | ✅ |
+| ❌ Unclear or unhelpful | ✅ Clear and useful |
 |----|-----|
-| Not available in your country | Available in selected countries |
 | You can't withdraw until you verify | Verify your identity to unlock withdrawals |
-| This feature is not supported on mobile | Available on desktop |
+| This feature is not supported on mobile | Use this feature on desktop |
 | Stop loss is not available during deal cancellation | Stop loss is available once deal cancellation expires |
+| Something went wrong with your transfer | Transfer not possible. You don't have enough funds. |
 
 ### 4. Be specific
 Vague copy forces traders to guess. Specific copy removes doubt -- especially for financial actions.
@@ -204,13 +204,15 @@ Errors are the most read copy in the product. Traders read them under stress and
 | Error type | ❌ | ✅ | Notes |
 |-----------|---|-----|-------|
 | Insufficient funds | Insufficient funds | Not enough funds. Deposit to continue. | Link "Deposit" if possible |
-| Deal cancellation conflict | Stop loss unavailable | Stop loss is available once deal cancellation expires. | Positive framing -- not "not available" |
+| Deal cancellation conflict | Stop loss unavailable | Stop loss is available once deal cancellation expires. | Offer the available alternative when one exists. |
 | Maximum stake reached (Accumulator) | Maximum aggregate open stake reached | New positions paused. Try again when the stake limit drops. | Plain language for a complex constraint |
 | Position closed at stop-out | Stop-out triggered | Your position has been closed. The market reached your stop-out level. | Steady tone -- this is a loss event |
 | Session expired | Session expired | Your session expired. Log in to continue. | Not "please log in again" -- just state and act |
 | Network error | Network error | No connection. Check your internet and try again. | |
 | Wrong credentials | Incorrect username or password | Wrong email or password. Try again or reset your password. | |
-| System error | Something went wrong. Please try again. | We hit a snag. Try again or contact support. | |
+| Internet connection lost | Something went wrong. Please try again. | No internet connection. Check your internet connection and try again. | Name the known issue. |
+| Transfer blocked by insufficient funds | Transfer failed | Transfer not possible. You don't have enough funds. | State the blocking condition directly. |
+| Unidentified system failure | Something went wrong. Please try again. | We couldn't complete your request. Try again. | Use only when the cause genuinely isn't known; be more specific whenever diagnostics identify the issue. |
 | Trade failed | Trade failed | Your trade didn't go through. Try again. | |
 | Indicative price changed | Price has changed | The price changed before your trade opened. Review and try again. | Don't say "indicative price" in the error -- say what happened |
 
@@ -218,6 +220,7 @@ Errors are the most read copy in the product. Traders read them under stress and
 - Never blame: "You entered an invalid..." → "Enter a valid..."
 - Never use error codes in the message body (logs only)
 - For financial loss events: factual and steady, not apologetic or alarming
+- Name the specific issue or failed action whenever it is known. Avoid "Something went wrong", "We hit a snag", and other vague catch-all wording.
 - Always include what to do next -- even if it's just "Try again"
 
 ### Tooltips and helper text
@@ -246,8 +249,6 @@ Tooltips translate Deriv's product terms into plain language. They're the bridge
 | Deriv MT5 password | Used to log in to Deriv MT5. Different from your main Deriv password. | 70 |
 | Account currency | The currency used for all trades, deposits, and withdrawals on this account. | 76 |
 | Reference ID | A unique number for this transaction. Find all reference IDs in Reports. | 70 |
-| High-water mark (Tokens) | A performance fee applies only when the token price rises above the previous highest value. | 91 |
-| NAV / Account value (Tokens) | Your account value is calculated as cash + open positions, and updates live. | 76 |
 
 **Rules:**
 - One sentence. Full stop at the end.
@@ -320,7 +321,6 @@ Empty states tell a trader what's missing, why it matters, and what to do about 
 | No notifications | You're all caught up | We'll notify you when something needs your attention. | -- |
 | No search results | No results for "[query]" | Try a different search or browse all options. | Browse markets |
 | No funds in account | Your account is empty | Deposit funds to start trading. | Deposit funds |
-| No tokens (Tokens) | No tokens yet | Explore the Marketplace to find tokens to buy. | Go to Marketplace |
 
 ### Onboarding and instructional copy
 
@@ -342,6 +342,166 @@ One action per screen. Tell traders what to do -- not what the process is.
 
 ---
 
+## Deriv Exchange terminology
+
+Deriv Exchange terminology should be consistent with the product's current scope and with the existing Deriv UX-writing rules. When writing for Deriv Exchange, use the exact product names below and explain technical terms in plain language when the audience may not know them.
+
+### Product and wallet terminology
+
+| Preferred | Avoid / note |
+|-----------|--------------|
+| **Deriv Exchange** | Use the full product name on first reference. "Exchange" is acceptable when the context is already clear. |
+| **Deriv Wallet** | "Wallet" may be used when the context is clear. Always capitalise **Wallet** when it is part of the Deriv product name. |
+| **Crypto wallet** | Correct generic term. Keep lowercase unless it begins a sentence. |
+| **External wallet** | Correct term for a wallet outside Deriv. |
+| **Exchange account** | Use for the user's account within Deriv Exchange when the distinction from the wider Deriv account matters. |
+| **Deriv account** | Use for the user's overall Deriv account and login. |
+| **Cashier / Deriv cashier** | Use for the experience that handles deposits, withdrawals and transfers. |
+| **Single Deriv login** | Preferred user-facing description. Avoid exposing technical "SSO" language unless needed. |
+
+Use **Deriv Wallet** in every phrase, including:
+
+- Transfer to **Deriv Wallet**
+- Transfer from **Deriv Wallet**
+- Your **Deriv Wallet** balance
+- Move funds to your **Deriv Wallet**
+
+Do not write "Deriv wallet". When referring to the product and its balance, use **Deriv Wallet balance**.
+
+### Crypto and asset terminology
+
+Use these terms consistently. The less-preferred wording below is a guide; use it only when it is genuinely less precise or less clear in context.
+
+| Preferred | Less preferred / avoid |
+|-----------|------------------------|
+| cryptocurrency / crypto | digital money (too broad or informal for product terminology) |
+| coin | token (when the asset is specifically a coin) |
+| token | coin (when the asset is specifically a token) |
+| crypto pair / trading pair | currency pair (can be confused with forex) |
+| base asset | first currency (less precise) |
+| quote asset | second currency (less precise) |
+| USDT | Tether (unless referring to the issuer or explaining the asset) |
+| USDT-quoted pair | pair with USDT (less consistent as a product term) |
+| USDT-margined | USDT-backed (not necessarily equivalent) |
+| network | chain (unless the product documentation uses "chain") |
+| on-chain | on the blockchain (use the shorter term when the audience understands it) |
+| crypto deposit | coin deposit (less inclusive) |
+| crypto withdrawal | coin withdrawal (less inclusive) |
+| crypto balance | crypto funds (less specific) |
+| external wallet | outside wallet (less standard) |
+| underlying asset | underlying coin (may be inaccurate for tokens or other assets) |
+
+Do not add specialised crypto terms that are not established by the relevant Deriv Exchange product documentation. If a term is technically accurate but unfamiliar to the audience, define it in plain language at first use.
+
+### Spot trading terminology
+
+Use the preferred terms below consistently:
+
+| Preferred | Less preferred / avoid |
+|-----------|------------------------|
+| **Spot trading** | cash trading (not the approved product term) |
+| **Spot market** | spot exchange (can refer to the venue rather than the market) |
+| **Spot market order** | instant buy (may imply a different flow or guaranteed price) |
+| **Buy / buying crypto** | purchase an asset (more formal than needed for most UI copy) |
+| **Sell / selling crypto** | dispose of an asset (unnecessarily formal) |
+| **Market order** | instant order (less precise) |
+| **Trading pair** | currency pair (can be confused with forex) |
+| **Order** | request (too vague in a trading context) |
+| **Trade / trading** | investment / investing (not Deriv's preferred terminology) |
+| **Immediate delivery** | instant ownership (may overstate timing or mechanics) |
+
+When explaining spot trading to users, say what happens in simple terms. For example: "Spot trading lets you buy or sell crypto for immediate delivery. When you buy a coin, you own it."
+
+### Futures terminology
+
+Use the preferred terms below consistently:
+
+| Preferred | Less preferred / avoid |
+|-----------|------------------------|
+| **Futures trading** | crypto trading (too broad when the copy specifically refers to futures) |
+| **Futures** | spot trading (not interchangeable) |
+| **Perpetual futures** | perpetuals (less explicit for new users) |
+| **USDT-margined perpetual futures** | USDT futures (less precise) |
+| **Futures contract** | contract (too vague without context) |
+| **Leverage / leveraged** | borrowing (does not explain leverage accurately in every product context) |
+| **Position** | bet (not appropriate product terminology) |
+| **Long / short** | buy / sell (not always equivalent to opening a long or short position) |
+| **Price direction** | market prediction (less precise) |
+| **Underlying asset** | coin (may be inaccurate for the asset type) |
+
+Do not use "futures" as a vague synonym for all crypto trading when the copy specifically refers to the futures product. Do not introduce terms such as liquidation, maintenance margin, funding rate or mark price unless they are supported by the relevant product documentation.
+
+### Trading and order terminology
+
+Use:
+
+- trade
+- trading
+- trading pair
+- order
+- market order
+- spot market order
+- buy order
+- sell order
+- order book
+- market data
+- real-time pricing
+- execution
+- fee
+- commission
+
+Use the simplest term that accurately describes the user's action. If a technical term is necessary, explain it rather than assuming the user knows it.
+
+### Exchange infrastructure terminology — internal terms
+
+The following terms may be useful for internal product, engineering, compliance or UX discussions, but they should not normally appear unexplained in external-facing copy:
+
+- trading engine
+- order book
+- market data
+- custody
+- MPC custody
+- multi-party computation
+- cashier
+- compliance layer
+- back office
+- exchange engine
+- exchange infrastructure
+- liquidity
+- liquidity sourcing
+- Liquidity-as-a-Service
+- ChainUp
+- Bitwind Liquidity-as-a-Service
+
+When an internal technical term must appear in external UX copy, keep the wording simple or provide a short dictionary-style definition. For example:
+
+> **MPC custody** — A mechanism that splits the keys controlling your funds across multiple parties, so no single party can move the funds on its own.
+
+Do not expose partner or infrastructure terminology simply because it is technically accurate. External users need to understand what the product does, not how the underlying system is implemented.
+
+### Compliance and verification terminology
+
+These terms may be used where relevant:
+
+- identity verification
+- KYC
+- transaction monitoring
+- risk screening
+- compliance
+- compliance layer
+- licence
+- regulated / non-regulated
+- VASP (Virtual Asset Service Provider)
+- launch jurisdiction
+
+For external copy, explain technical or regulatory terms when needed. For example:
+
+> **KYC** — Identity checks used to verify who you are.
+
+Do not improvise legal, licensing or regulatory wording. If the exact customer-facing wording is not approved, flag it for confirmation rather than rewriting it from memory.
+
+---
+
 ## Deriv terminology -- hard rules
 
 ### Banned words
@@ -356,7 +516,7 @@ These are regulatory and brand rules. No exceptions.
 | click here | descriptive verb + noun ("Visit the Help centre") | Accessibility and clarity |
 | soon | specific timeframe ("within 2 business days") | Precision |
 | a small fee | the actual fee amount | Specificity -- always show the number |
-| not available in your country | available in selected countries | Positive framing -- hard rule |
+| vague restriction wording | a clear statement of the restriction and, where possible, an available alternative | Be direct; do not hide a genuine limitation just to sound positive |
 | advertiser / advertisers (Deriv P2P) | seller / sellers | Deriv P2P pairs sellers with buyers. "Advertiser" is too vague and reads promotional. See "Deriv P2P -- role terminology" below. |
 
 **On "stake":** Allowed as a UI label for the input field and in trade mechanics context. The banned substitution ("initial capital") applies in regulatory/compliance-facing copy. If unsure, check with compliance.
@@ -373,23 +533,24 @@ These appear in error messages, account selectors, help text, and onboarding acr
 | Deriv Bot | dBot, DerivBot |
 | Deriv Trader | DTrader, dTrader |
 | SmartTrader | Smart Trader, Smarttrader |
-| Deriv Nakala | Nakala alone |
 | Deriv P2P | DerivP2P, Deriv p2p |
 
 ### Account-type modifiers -- placement
 
-Modifiers like "real" and "demo" go before the full Deriv platform name, never inside it. The platform name is a locked proper noun and must not be split.
+Keep the full platform name together, then add the account type after it. Use "real" or "demo" as a lowercase modifier before "account".
 
-| ✅ Correct | ❌ Never |
+| ✅ Correct | ❌ Avoid |
 |-----------|---------|
-| real Deriv cTrader account | Deriv real cTrader account |
-| demo Deriv MT5 account | Deriv demo MT5 account |
-| real Deriv GO account | Deriv real GO account |
-| demo Deriv Bot account | Deriv demo Bot account |
+| Deriv MT5 real account | real Deriv MT5 account |
+| Deriv MT5 demo account | demo Deriv MT5 account |
+| Deriv cTrader real account | real Deriv cTrader account |
+| Deriv cTrader demo account | demo Deriv cTrader account |
+| Deriv GO real account | real Deriv GO account |
+| Deriv Bot demo account | demo Deriv Bot account |
 
-The modifier itself is lowercase ("real", "demo") -- it's a descriptor, not part of the product name. Capitalise only when it begins a sentence: "Real Deriv cTrader account is available", not "Activate your Real Deriv cTrader account now."
+The modifier itself is lowercase ("real", "demo") -- it's a descriptor, not part of the product name. Capitalise it only when it begins a sentence.
 
-Note the one exception: the standalone "Deriv real account" (no platform name attached) keeps its own fixed word order per the glossary -- never "real Deriv account." This rule is specifically for when a platform name (Deriv MT5, Deriv cTrader, etc.) is involved.
+The standalone "Deriv real account" (with no platform name attached) retains its own fixed word order if that is the glossary-approved term. Don't apply that standalone wording to platform-specific account names.
 
 ### Deriv P2P -- role terminology
 
@@ -478,17 +639,17 @@ For tight spaces, use the ISO code instead (USD, EUR, GBP, JPY, AUD) in caps. Wh
 - Vanilla options, Lookbacks options -- lowercase "options"
 - Rise/Fall, Higher/Lower, Ends Between, Stays Between -- as shown
 
-### Derived indices -- use the right level
+### Derived Indices -- use the right level
 
 | Use | When |
 |-----|------|
-| Derived indices | Umbrella term for the whole category |
-| Synthetic indices | The simulated subset (Volatility, Crash/Boom, Jump, etc.) |
-| Basket indices | Currency basket products |
-| Crypto indices | Cryptocurrency-based indices |
+| Derived Indices | Umbrella term for the whole category |
+| Synthetic Indices | The simulated subset, including Volatility Indices, Crash/Boom Indices, Jump Indices, and Step Index |
+| Basket Indices | Currency basket products |
+| Crypto Indices | Cryptocurrency-based indices |
 | Derived FX | Simulated forex products |
 
-Never use "Synthetic indices" as a synonym for "Derived indices." They're a subset, not the whole.
+Use title case for index category and product names, including "Derived Indices", "Synthetic Indices", "Volatility Indices", "Crash/Boom Indices", "Jump Indices", "Step Index", "Basket Indices", and "Crypto Indices". Never use "Synthetic Indices" as a synonym for "Derived Indices". They're a subset, not the whole.
 
 ### British English -- apply consistently
 
@@ -522,7 +683,7 @@ Run this before any copy ships:
 **Clarity**
 - [ ] Does it start with the most important word?
 - [ ] Can any word be removed without losing meaning?
-- [ ] Is the voice active?
+- [ ] Is the wording direct, specific, and clear about who acts or what happened?
 - [ ] Is it free of jargon a first-time trader wouldn't know?
 
 **Action**
@@ -533,8 +694,10 @@ Run this before any copy ships:
 
 **Deriv rules**
 - [ ] Does it avoid the banned words (invest, win, click here)?
+- [ ] If it is Deriv Exchange copy, are product terms such as **Deriv Exchange**, **Deriv Wallet**, **crypto wallet**, **external wallet**, **Spot trading**, and **Futures trading** used consistently?
+- [ ] If a technical Exchange term is used externally, is it explained in plain language where needed?
 - [ ] Are platform and product names capitalised correctly?
-- [ ] If "real" or "demo" appears with a platform name: is the modifier placed before the full platform name ("real Deriv MT5 account"), not splitting it?
+- [ ] If "real" or "demo" appears with a platform name: does the full platform name come first ("Deriv MT5 real account"), followed by the lowercase account-type modifier?
 - [ ] If app store names appear: is each one spelled correctly and is "the" used before the first one only?
 - [ ] If the copy is for Deriv P2P: does it use "seller / buyer" (never "advertiser") and "ads" (never "advertisements")?
 - [ ] If the copy is for Deriv P2P and describes ads disappearing from the marketplace: does it use "hidden" (never "paused", "excluded", or "inactive")?
@@ -542,7 +705,7 @@ Run this before any copy ships:
 - [ ] Is it sentence case?
 - [ ] Is it British English?
 - [ ] Are currency names lowercase (US dollar, euro, yen) unless using the ISO code?
-- [ ] Does it use positive framing for restrictions?
+- [ ] Does it state restrictions clearly, using positive framing only when it helps and without hiding genuine limitations?
 
 **Mobile**
 - [ ] Is it within the character limit for its element and surface?
@@ -577,6 +740,6 @@ Use a table with columns: Screen / Element / Copy / Char count / Notes
 
 `References/product-glossary.md` -- Deriv-approved terminology in three tiers: curated display names/tooltips/UX copy notes for all trade types, features, platforms, and markets; an EU availability quick reference; and extended terminology pulled from the March 2026 master glossary. See "Before you write: check the glossary" above for how the tiers work. **Read this before writing copy that involves any product term.**
 
-`References/crypto-glossary.md` -- industry reference for crypto and blockchain terminology (Binance Academy, paraphrased). Not Deriv-approved product terms -- use for background understanding when writing about crypto markets or Deriv P2P, not as a source to copy into the UI.
+`References/crypto-glossary.md` -- industry reference for crypto and blockchain terminology (Binance Academy, paraphrased). Not Deriv-approved product terms -- use for background understanding when writing about crypto markets or Deriv P2P, not as a source to copy into the UI. For Deriv Exchange, combine this background reference with the product-specific terminology and rules in this skill.
 
 For formatting rules (dates, currency, abbreviations) and content-type constraints (email subject lines, push notification limits): refer to the Deriv Content Style skill.
